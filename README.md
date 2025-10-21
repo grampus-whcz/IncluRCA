@@ -33,29 +33,49 @@ Then the temp data also needs to be downloaded from https://github.com/baiyanqua
 Finally the ``model`` and ``temp_data`` folders need be placed following the structure of the working folder:
 ````
 .
-├── README.md
-├── code                                          
-│   ├── data_filter                             preprocess data
-│   │   ├── CCF_AIOps_challenge_2022            preprocess dataset A
-│   │   ├── ICASSP_AIOps_challenge_2022         preprocess dataset B
-│   │   └── Eadro_TT_and_SN                     preprocess dataset C
-│   ├── HolisticRCA                             the main model of the work
-│   │   ├── ablation                            models for ablation study
-│   │   ├── base                                base classes for model construction
-│   │   ├── config                              configuration of file paths
-│   │   ├── data_loader                         load dataset
-│   │   ├── dataset                             base class for dataset reader
-│   │   ├── explain                             mask learning component (for resource entity localization and fault-related observability data localization)
-│   │   ├── model                               main components except mask learning
-│   │   ├── trainer                             perform model training
-│   │   └── util                                RERG class and data transformation
-│   ├── shared_util                             some basic util functions
-│   ├── experiments_a.sh                        quick experiments for dataset A
-│   ├── experiments_b.sh                        quick experiments for dataset B
-│   ├── experiments_c.sh                        quick experiments for dataset C
-│   └── requirements.txt
-├── model                                       saved model data for reproduction
-└── temp_data                                   saved temp data for reproduction
+|-- README.md
+|-- code
+|   |-- IncluRCA                                          the main model of the work
+|   |   |-- ablation                                      models for ablation study
+|   |   |-- base                                          base classes for model construction
+|   |   |-- config                                        configuration of file paths
+|   |   |-- data_loader                                   load dataset
+|   |   |-- dataset                                       base class for dataset reader
+|   |   |-- explain                                       mask learning component (for resource entity localization and fault-related observability data localization)
+|   |   |-- model                                         main components except mask learning
+|   |   |   |-- common
+|   |   |   |   |-- GAT_net.py                            GATNet
+|   |   |   |   |-- __pycache__
+|   |   |   |   |-- attention_block.py
+|   |   |   |   |-- embed.py
+|   |   |   |   |-- map_net.py
+|   |   |   |-- o11y
+|   |   |   |-- re
+|   |   |       |-- __pycache__
+|   |   |       |-- fault_classifier.py
+|   |   |       |-- feature_fusion.py
+|   |   |       |-- feature_integration.py                 Transformer module
+|   |   |       |-- feature_integration_SEAttention.py     SEAttention module
+|   |   |-- trainer                                        perform model training
+|   |   |-- util                                           RERG class and data transformation
+|   |-- data_filter                                        preprocess data
+|   |   |-- CCF_AIOps_challenge_2022                       preprocess dataset A
+|   |   |-- CCF_AIOps_challenge_2022_HolisticRCA           preprocess dataset A (HolisticRCA)
+|   |   |-- CCF_AIOps_challenge_2025                       preprocess dataset D (no api)
+|   |   |-- CCF_AIOps_challenge_2025_api                   preprocess dataset D
+|   |   |-- Eadro_TT_and_SN                                preprocess dataset B
+|   |   |-- ICASSP_AIOps_challenge_2022                    preprocess dataset C
+|   |-- experiments_a.sh                                   experiments for dataset A
+|   |-- experiments_a_ablation.sh                          ablation experiments for dataset A
+|   |-- experiments_b_SN.sh                                experiments for dataset B_SN
+|   |-- experiments_b_TT.sh                                experiments for dataset B_TT
+|   |-- experiments_c.sh                                   experiments for dataset C
+|   |-- experiments_d.sh                                   experiments for dataset D
+|   |-- requirements_experimental_environment.txt
+|   |-- requirements.txt
+|   |-- shared_util                                        some basic util functions
+|-- model                                                  saved model data for reproduction
+|-- temp_data                                              saved temp data for reproduction
 ````
 
 ## Quick Start / Reproducibility
@@ -84,19 +104,22 @@ python ./data_filter/CCF_AIOps_challenge_2022/service/dataset_generator.py
 ### Prerequisites
 
 1. Prepare the Python packages in ``requirements.txt``.
-2. Unzip ``model.zip`` and ``temp_data.zip``.
+2. Unzip ``temp_data.zip``.
 
 ### Simple Result Checking
 
-The saved model files are placed in ``model.zip``. Following the files ``experiments_a.sh``, ``experiments_b.sh``, or ``experiments_c.sh`` and comment out ``rca_data_trainer.train()`` in the corresponding training files. It will output the evaluation results (note that some file paths need to be changed).
+Following the files ``experiments_a.sh``, ``experiments_a_ablation.sh``, ``experiments_b_SN.sh``, ``experiments_b_TT.sh``, ``experiments_c.sh``, or ``experiments_d.sh`` and comment out ``rca_data_trainer.train()`` in the corresponding training files. It will output the evaluation results (note that some file paths need to be changed).
 
 ### Running
 
 ````
 cd ./code
 bash experiments_a.sh
-bash experiments_b.sh
+bash experiments_a_ablation.sh
+bash experiments_b_SN.sh
+bash experiments_b_TT.sh
 bash experiments_c.sh
+bash experiments_d.sh
 ````
 
 ## Raw Data
