@@ -66,7 +66,6 @@ Finally the ``model`` and ``temp_data`` folders need be placed following the str
 |   |   |-- Eadro_TT_and_SN                                preprocess dataset B
 |   |   |-- ICASSP_AIOps_challenge_2022                    preprocess dataset C
 |   |-- experiments_a.sh                                   experiments for dataset A
-|   |-- experiments_a_ablation.sh                          ablation experiments for dataset A
 |   |-- experiments_b_SN.sh                                experiments for dataset B_SN
 |   |-- experiments_b_TT.sh                                experiments for dataset B_TT
 |   |-- experiments_c.sh                                   experiments for dataset C
@@ -108,14 +107,13 @@ python ./data_filter/CCF_AIOps_challenge_2022/service/dataset_generator.py
 
 ### Simple Result Checking
 
-Following the files ``experiments_a.sh``, ``experiments_a_ablation.sh``, ``experiments_b_SN.sh``, ``experiments_b_TT.sh``, ``experiments_c.sh``, or ``experiments_d.sh`` and comment out ``rca_data_trainer.train()`` in the corresponding training files. It will output the evaluation results (note that some file paths need to be changed).
+Following the files ``experiments_a.sh``, ``experiments_b_SN.sh``, ``experiments_b_TT.sh``, ``experiments_c.sh``, or ``experiments_d.sh`` and comment out ``rca_data_trainer.train()`` in the corresponding training files. It will output the evaluation results (note that some file paths need to be changed).
 
 ### Running
 
 ````
 cd ./code
 bash experiments_a.sh
-bash experiments_a_ablation.sh
 bash experiments_b_SN.sh
 bash experiments_b_TT.sh
 bash experiments_c.sh
