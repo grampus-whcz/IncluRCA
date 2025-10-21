@@ -23,14 +23,9 @@ We also provide our configuration in the experimental environment. File "require
 
 ## Folder Structure
 
-Note: we have split the zip file for uploading. The following commands need to be input for the working folder:
-````
-zip model_split.zip -s=0 --out model.zip
-unzip model.zip
-````
-Then the temp data also needs to be downloaded from https://github.com/baiyanquan/HolisticRCATempData.
+Note: the temp data also needs to be downloaded from https://github.com/grampus-whcz/IncluRCA_temp_data.
 
-Finally the ``model`` and ``temp_data`` folders need be placed following the structure of the working folder:
+Finally the ``temp_data`` folders need be placed following the structure of the working folder:
 ````
 .
 |-- README.md
