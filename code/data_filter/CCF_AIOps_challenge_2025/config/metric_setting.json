@@ -1,0 +1,200 @@
+{
+    "node_order": [
+        "aiops-k8s-01",
+        "aiops-k8s-02",
+        "aiops-k8s-03",
+        "aiops-k8s-04",
+        "aiops-k8s-05",
+        "aiops-k8s-06",
+        "aiops-k8s-07",
+        "aiops-k8s-08"
+    ],
+    "service_order": [
+        "adservice",
+        "cartservice",
+        "checkoutservice",
+        "currencyservice",
+        "emailservice",
+        "frontend",
+        "paymentservice",
+        "productcatalogservice",
+        "recommendationservice",
+        "shippingservice",
+        "redis-cart"
+    ],
+    "pod_order": [
+        "adservice-0",
+        "adservice-1",
+        "adservice-2",
+        "cartservice-0",
+        "cartservice-1",
+        "cartservice-2",
+        "checkoutservice-0",
+        "checkoutservice-1",
+        "checkoutservice-2",
+        "currencyservice-0",
+        "currencyservice-1",
+        "currencyservice-2",
+        "emailservice-0",
+        "emailservice-1",
+        "emailservice-2",
+        "frontend-0",
+        "frontend-1",
+        "frontend-2",
+        "paymentservice-0",
+        "paymentservice-1",
+        "paymentservice-2",
+        "productcatalogservice-0",
+        "productcatalogservice-1",
+        "productcatalogservice-2",
+        "recommendationservice-0",
+        "recommendationservice-1",
+        "recommendationservice-2",
+        "shippingservice-0",
+        "shippingservice-1",
+        "shippingservice-2",
+        "redis-cart-0"
+    ],
+    "tidb_order": [
+        "tidb-tidb",
+        "tidb-tikv",
+        "tidb-pd"
+    ],
+    "related_metrics": {
+        "hipstershop": {
+            "APM": [
+                "request",
+                "response",
+                "rrt",
+                "rrt_max",
+                "error",
+                "client_error",
+                "server_error",
+                "timeout",
+                "error_ratio",
+                "client_error_ratio",
+                "server_error_ratio"
+            ]
+        },
+        "node": {
+            "Infra": [
+                "node_cpu_usage_rate",
+                "node_memory_usage_rate",
+                "node_memory_MemAvailable_bytes",
+                "node_memory_MemTotal_bytes",
+                "node_filesystem_usage_rate",
+                "node_filesystem_size_bytes",
+                "node_filesystem_free_bytes",
+                "node_disk_read_bytes_total",
+                "node_disk_read_time_seconds_total",
+                "node_disk_written_bytes_total",
+                "node_disk_write_time_seconds_total",
+                "node_network_receive_bytes_total",
+                "node_network_transmit_bytes_total",
+                "node_network_receive_packets_total",
+                "node_network_transmit_packets_total",
+                "node_sockstat_TCP_inuse"
+            ]
+        },
+        "service": {
+            "APM": [
+                "request",
+                "response",
+                "rrt",
+                "rrt_max",
+                "error",
+                "client_error",
+                "server_error",
+                "timeout",
+                "error_ratio",
+                "client_error_ratio",
+                "server_error_ratio"
+            ]
+        },
+        "container": {
+            "APM": [
+                "request",
+                "response",
+                "rrt",
+                "rrt_max",
+                "error",
+                "client_error",
+                "server_error",
+                "timeout",
+                "error_ratio",
+                "client_error_ratio",
+                "server_error_ratio"
+            ],
+            "Infra": [
+                "pod_cpu_usage",
+                "pod_memory_working_set_bytes",
+                "pod_processes",
+                "pod_fs_reads_bytes",
+                "pod_fs_writes_bytes",
+                "pod_network_receive_bytes",
+                "pod_network_transmit_bytes",
+                "pod_network_receive_packets",
+                "pod_network_transmit_packets"
+            ]
+        },
+        "tidb": {
+            "tidb": [
+                "connection_count",
+                "failed_query_ops",
+                "duration_99th",
+                "duration_95th",
+                "duration_avg",
+                "qps",
+                "slow_query",
+                "block_cache_size",
+                "uptime",
+                "cpu_usage",
+                "memory_usage",
+                "statement_avg_queries",
+                "transaction_retry",
+                "ddl_job_count",
+                "top_sql_cpu",
+                "server_is_up"
+            ],
+            "tikv": [
+                "store_size",
+                "available_size",
+                "capacity_size",
+                "cpu_usage",
+                "memory_usage",
+                "io_util",
+                "write_wal_mbps",
+                "read_mbps",
+                "qps",
+                "grpc_qps",
+                "threadpool_readpool_cpu",
+                "raft_propose_wait",
+                "raft_apply_wait",
+                "region_pending",
+                "rocksdb_write_stall",
+                "snapshot_apply_count",
+                "server_is_up"
+            ],
+            "pd": [
+                "storage_capacity",
+                "storage_size",
+                "storage_used_ratio",
+                "store_up_count",
+                "store_down_count",
+                "store_unhealth_count",
+                "store_low_space_count",
+                "store_slow_count",
+                "abnormal_region_count",
+                "region_health",
+                "region_count",
+                "leader_count",
+                "learner_count",
+                "witness_count",
+                "leader_primary",
+                "cpu_usage",
+                "memory_usage"
+            ]
+        }
+
+    }
+}

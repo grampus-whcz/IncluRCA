@@ -1,0 +1,349 @@
+{
+    "traceID": "27369f8b9cb3d7f4",
+    "spans": [
+      {
+        "traceID": "27369f8b9cb3d7f4",
+        "spanID": "97594cf7d8b772ec",
+        "flags": 1,
+        "operationName": "/api/user/get_follower",
+        "references": [
+          {
+            "refType": "CHILD_OF",
+            "traceID": "27369f8b9cb3d7f4",
+            "spanID": "27369f8b9cb3d7f4"
+          }
+        ],
+        "startTime": 1650191705807791,
+        "duration": 1287,
+        "tags": [
+          {
+            "key": "component",
+            "type": "string",
+            "value": "nginx"
+          },
+          {
+            "key": "nginx.worker_pid",
+            "type": "string",
+            "value": "13"
+          },
+          {
+            "key": "peer.address",
+            "type": "string",
+            "value": "172.20.0.1:57420"
+          },
+          {
+            "key": "http.method",
+            "type": "string",
+            "value": "GET"
+          },
+          {
+            "key": "http.url",
+            "type": "string",
+            "value": "http://localhost:8080/api/user/get_follower"
+          },
+          {
+            "key": "http.host",
+            "type": "string",
+            "value": "localhost:8080"
+          },
+          {
+            "key": "http.status_code",
+            "type": "int64",
+            "value": 500
+          },
+          {
+            "key": "http.status_line",
+            "type": "string",
+            "value": ""
+          },
+          {
+            "key": "error",
+            "type": "bool",
+            "value": true
+          },
+          {
+            "key": "internal.span.format",
+            "type": "string",
+            "value": "proto"
+          }
+        ],
+        "logs": [
+          {
+            "timestamp": 1650191705809090,
+            "fields": [
+              {
+                "key": "event",
+                "type": "string",
+                "value": "error"
+              },
+              {
+                "key": "message",
+                "type": "string",
+                "value": ""
+              }
+            ]
+          }
+        ],
+        "processID": "p1",
+        "warnings": null
+      },
+      {
+        "traceID": "27369f8b9cb3d7f4",
+        "spanID": "27369f8b9cb3d7f4",
+        "flags": 1,
+        "operationName": "/api/user/get_follower",
+        "references": [],
+        "startTime": 1650191705807000,
+        "duration": 2075,
+        "tags": [
+          {
+            "key": "sampler.type",
+            "type": "string",
+            "value": "probabilistic"
+          },
+          {
+            "key": "sampler.param",
+            "type": "float64",
+            "value": 0.2
+          },
+          {
+            "key": "http.status_code",
+            "type": "int64",
+            "value": 500
+          },
+          {
+            "key": "http.status_line",
+            "type": "string",
+            "value": ""
+          },
+          {
+            "key": "error",
+            "type": "bool",
+            "value": true
+          },
+          {
+            "key": "component",
+            "type": "string",
+            "value": "nginx"
+          },
+          {
+            "key": "nginx.worker_pid",
+            "type": "string",
+            "value": "13"
+          },
+          {
+            "key": "peer.address",
+            "type": "string",
+            "value": "172.20.0.1:57420"
+          },
+          {
+            "key": "http.method",
+            "type": "string",
+            "value": "GET"
+          },
+          {
+            "key": "http.url",
+            "type": "string",
+            "value": "http://localhost:8080/api/user/get_follower"
+          },
+          {
+            "key": "http.host",
+            "type": "string",
+            "value": "localhost:8080"
+          },
+          {
+            "key": "internal.span.format",
+            "type": "string",
+            "value": "proto"
+          }
+        ],
+        "logs": [
+          {
+            "timestamp": 1650191705809116,
+            "fields": [
+              {
+                "key": "event",
+                "type": "string",
+                "value": "error"
+              },
+              {
+                "key": "message",
+                "type": "string",
+                "value": ""
+              }
+            ]
+          }
+        ],
+        "processID": "p1",
+        "warnings": null
+      },
+      {
+        "traceID": "27369f8b9cb3d7f4",
+        "spanID": "1e92b685c4907e46",
+        "flags": 1,
+        "operationName": "social_graph_redis_insert_client",
+        "references": [
+          {
+            "refType": "CHILD_OF",
+            "traceID": "27369f8b9cb3d7f4",
+            "spanID": "ce85205cfe414ab2"
+          }
+        ],
+        "startTime": 1650191705808781,
+        "duration": 81,
+        "tags": [
+          {
+            "key": "internal.span.format",
+            "type": "string",
+            "value": "proto"
+          }
+        ],
+        "logs": [],
+        "processID": "p2",
+        "warnings": null
+      },
+      {
+        "traceID": "27369f8b9cb3d7f4",
+        "spanID": "360c3ec3daed8c12",
+        "flags": 1,
+        "operationName": "social_graph_redis_get_client",
+        "references": [
+          {
+            "refType": "CHILD_OF",
+            "traceID": "27369f8b9cb3d7f4",
+            "spanID": "ce85205cfe414ab2"
+          }
+        ],
+        "startTime": 1650191705808142,
+        "duration": 222,
+        "tags": [
+          {
+            "key": "internal.span.format",
+            "type": "string",
+            "value": "proto"
+          }
+        ],
+        "logs": [],
+        "processID": "p2",
+        "warnings": null
+      },
+      {
+        "traceID": "27369f8b9cb3d7f4",
+        "spanID": "32427c6342e71ee5",
+        "flags": 1,
+        "operationName": "social_graph_mongo_find_client",
+        "references": [
+          {
+            "refType": "CHILD_OF",
+            "traceID": "27369f8b9cb3d7f4",
+            "spanID": "ce85205cfe414ab2"
+          }
+        ],
+        "startTime": 1650191705808394,
+        "duration": 364,
+        "tags": [
+          {
+            "key": "internal.span.format",
+            "type": "string",
+            "value": "proto"
+          }
+        ],
+        "logs": [],
+        "processID": "p2",
+        "warnings": null
+      },
+      {
+        "traceID": "27369f8b9cb3d7f4",
+        "spanID": "ce85205cfe414ab2",
+        "flags": 1,
+        "operationName": "get_followers_server",
+        "references": [
+          {
+            "refType": "CHILD_OF",
+            "traceID": "27369f8b9cb3d7f4",
+            "spanID": "3e6b7c052d81417a"
+          }
+        ],
+        "startTime": 1650191705808133,
+        "duration": 743,
+        "tags": [
+          {
+            "key": "internal.span.format",
+            "type": "string",
+            "value": "proto"
+          }
+        ],
+        "logs": [],
+        "processID": "p2",
+        "warnings": null
+      },
+      {
+        "traceID": "27369f8b9cb3d7f4",
+        "spanID": "3e6b7c052d81417a",
+        "flags": 1,
+        "operationName": "GetFollower",
+        "references": [
+          {
+            "refType": "CHILD_OF",
+            "traceID": "27369f8b9cb3d7f4",
+            "spanID": "97594cf7d8b772ec"
+          }
+        ],
+        "startTime": 1650191705807838,
+        "duration": 27305564,
+        "tags": [
+          {
+            "key": "internal.span.format",
+            "type": "string",
+            "value": "proto"
+          }
+        ],
+        "logs": [],
+        "processID": "p1",
+        "warnings": null
+      }
+    ],
+    "processes": {
+      "p1": {
+        "serviceName": "nginx-web-server",
+        "tags": [
+          {
+            "key": "hostname",
+            "type": "string",
+            "value": "nginx-thrift"
+          },
+          {
+            "key": "ip",
+            "type": "string",
+            "value": "127.0.0.1"
+          },
+          {
+            "key": "jaeger.version",
+            "type": "string",
+            "value": "C++-0.4.2"
+          }
+        ]
+      },
+      "p2": {
+        "serviceName": "social-graph-service",
+        "tags": [
+          {
+            "key": "hostname",
+            "type": "string",
+            "value": "social-graph-service"
+          },
+          {
+            "key": "ip",
+            "type": "string",
+            "value": "127.0.0.1"
+          },
+          {
+            "key": "jaeger.version",
+            "type": "string",
+            "value": "C++-0.4.2"
+          }
+        ]
+      }
+    },
+    "warnings": null
+  }
