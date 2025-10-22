@@ -70,6 +70,12 @@ Finally the ``temp_data`` folders need be placed following the structure of the 
 |   |-- shared_util                                        some basic util functions
 |-- model                                                  saved model data for reproduction
 |-- temp_data                                              saved temp data for reproduction
+|-- result
+|   |-- experiments_a.log                                  experiments' results for dataset A
+|   |-- experiments_b_SN.log                               experiments' results for dataset B_SN
+|   |-- experiments_b_TT.log                               experiments' results for dataset B_TT
+|   |-- experiments_c.log                                  experiments' results for dataset C
+|   |-- experiments_d.log                                  experiments' results for dataset D
 ````
 
 ## Quick Start / Reproducibility
