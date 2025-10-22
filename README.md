@@ -1,6 +1,6 @@
 # IncluRCA
 
-Artifacts accompanying IncluRCA, a framework for Root Cause Analysis based on multimodal Data Augmentation and Channel Attention for Failures in Microservice Systems. 
+Artifacts accompanying IncluRCA, a framework for "Root Cause Analysis based on multimodal Data Augmentation and Channel Attention for Failures in Microservice Systems". 
 
 ## Requirements
 
