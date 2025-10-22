@@ -119,9 +119,9 @@ bash experiments_d.sh
 
 Since the raw data is too big, we list their links here, help for downloading:
 
-- Dataset A: https://competition.aiops-challenge.com/home/competition/1496398526429724760. (Sometimes the page may be crashed, please visit https://www.bizseer.com/index.php?m=content&c=index&a=show&catid=25&id=83 for simple introduction).
-- Dataset B: https://doi.org/10.5281/zenodo.7615393. (Note that the actual number of fault injections is 36. Due to the limited sample size, we applied a sliding window of length 5 to each fault injection, resulting in a total of 36*5 = 180 samples.)
-- Dataset C: https://www.aiops.sribd.cn/home/introduction. (Note that there are no source data for this dataset, so IncluRCA uses pre-treated data from HolisticRCA (https://github.com/baiyanquan/HolisticRCATempData).)
-- Dataset D: https://challenge.aiops.cn/home/competition/1920410697896845344. (aiops-live-benchmark: https://www.aiops.cn/gitlab/aiops-live-benchmark. Note that IncluRCA uses PhaseOne, and the preprocessing of PhaseTwo is the same as PhaseOne in ./code/data_filter/CCF_AIOps_challenge_2025 or ./code/data_filter/CCF_AIOps_challenge_2025_api)
+- Dataset A: https://competition.aiops-challenge.com/home/competition/1496398526429724760. Sometimes the page may be crashed, please visit https://www.bizseer.com/index.php?m=content&c=index&a=show&catid=25&id=83 for simple introduction.
+- Dataset B: https://doi.org/10.5281/zenodo.7615393.
+- Dataset C: https://www.aiops.sribd.cn/home/introduction. Note that there are no source data for this dataset, so IncluRCA uses pre-treated data from HolisticRCA (https://github.com/baiyanquan/HolisticRCATempData).
+- Dataset D: https://challenge.aiops.cn/home/competition/1920410697896845344. aiops-live-benchmark: https://www.aiops.cn/gitlab/aiops-live-benchmark. Note that IncluRCA uses PhaseOne, and the preprocessing of PhaseTwo is the same as PhaseOne in ./code/data_filter/CCF_AIOps_challenge_2025 or ./code/data_filter/CCF_AIOps_challenge_2025_api.
 
 
