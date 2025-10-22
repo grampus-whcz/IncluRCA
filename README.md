@@ -23,7 +23,7 @@ We also provide our configuration in the experimental environment. File "require
 
 ## Folder Structure
 
-Note: the temp data also needs to be downloaded from https://zenodo.org/records/17410772.
+Note: the temp data also needs to be downloaded from https://zenodo.org/records/17410890.
 
 Finally the ``temp_data`` folders need be placed following the structure of the working folder:
 ````
