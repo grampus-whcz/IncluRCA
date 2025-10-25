@@ -126,11 +126,11 @@ bash experiments_d.sh
 ### RQ1: How effective is IncluRCA in three RCA tasks?
 <p align="center"><img src="docs/RQ1.png" width="800"></p>
 ### RQ2: What is the contribution of multimodal data?
-<p align="center"><img src="docs/RQ2.png" width="500"></p>
+<p align="center"><img src="docs/RQ2.png" width="600"></p>
 ### RQ3: How efficient is IncluRCA in model training and inference?
-<p align="center"><img src="docs/RQ3.png" width="500"></p>
+<p align="center"><img src="docs/RQ3.png" width="600"></p>
 ### RQ4: What is the dataset utilization rate in IncluRCA?
-<p align="center"><img src="docs/RQ4.png" width="500"></p>
+<p align="center"><img src="docs/RQ4.png" width="600"></p>
 
 ## Raw Data
 
