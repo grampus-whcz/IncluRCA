@@ -76,6 +76,7 @@ Finally the ``temp_data`` folders need be placed following the structure of the 
 |   |-- experiments_b_TT.log                               experiments' results for dataset B_TT
 |   |-- experiments_c.log                                  experiments' results for dataset C
 |   |-- experiments_d.log                                  experiments' results for dataset D
+|   docs                                                   evaluation results picture for RQ1~RQ4
 ````
 
 ## Quick Start / Reproducibility
