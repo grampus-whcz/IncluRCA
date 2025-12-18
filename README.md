@@ -11,7 +11,7 @@ export PYTHONPATH=/root/shared-nvme/work/code/RCA/IncluRCA/code
 cd ./code
 pip install -r requirements.txt
 ````
-We also provide our configuration in the experimental environment. File "requirements_experimental_environment.txt" is the pip list of our experimental environment (Note that: the installation of PyTorch followed by https://pytorch.org/get-started/previous-versions/, and torch-scatter and torch-sparse can be doanloaded on https://pytorch-geometric.com/whl/).
+We also provide our configuration in the experimental environment. File "requirements_experimental_environment.txt" is the pip list of our experimental environment (Note that: the installation of PyTorch followed by https://pytorch.org/get-started/previous-versions/, and torch-scatter and torch-sparse can be downloaded on https://pytorch-geometric.com/whl/).
 
 ### Our Test Environment
 
