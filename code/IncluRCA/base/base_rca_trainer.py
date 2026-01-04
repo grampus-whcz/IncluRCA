@@ -3,9 +3,17 @@ from shared_util.logger import Logger
 import torch
 from IncluRCA.data_loader.rca_data_loader import RCADataLoader
 from IncluRCA.model.o11y.representation_learning import RepresentationLearning
-from IncluRCA.model.re.feature_integration import FeatureIntegration
+# from IncluRCA.model.re.feature_integration import FeatureIntegration
+from IncluRCA.model.re.feature_integration_MultiScaleConvSEAttention import FeatureIntegration
 # from IncluRCA.model.re.feature_integration_SEAttention import FeatureIntegration
+# from IncluRCA.model.re.feature_integration_ECAAttention import FeatureIntegration
+# from IncluRCA.model.re.feature_integration_SKAttention1D import FeatureIntegration
+# from IncluRCA.model.re.feature_integration_TripletAttention1D import FeatureIntegration
+# from IncluRCA.model.re.feature_integration_TASAttention import FeatureIntegration # Local optimal
+# from IncluRCA.model.re.feature_integration_TAAttention import FeatureIntegration
+# from IncluRCA.model.re.feature_integration_CTMSA import FeatureIntegration
 from IncluRCA.model.re.feature_fusion import FeatureFusion
+# from IncluRCA.model.re.feature_fusion_new import FeatureFusion
 from IncluRCA.model.re.fault_classifier import FaultClassifier
 from IncluRCA.util.data_handler import rearrange_y
 from shared_util.evaluation_metrics import *
@@ -30,7 +38,7 @@ class BaseRCATrainer(ABC):
         self.model = torch.nn.Sequential(o11y_representation_learning, re_feature_integration, re_feature_fusion, re_fault_classifier).to(self.device)
         self.model_rank = []
         
-        # summary(self.model)
+        summary(self.model)
 
     def train(self):
         optimizer = torch.optim.Adam(self.model.parameters(), lr=self.param_dict['lr'], weight_decay=self.param_dict['weight_decay'])

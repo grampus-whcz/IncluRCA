@@ -45,6 +45,69 @@ class DatasetHandler:
         # print("####  size: ", len(data['train'][0]))
         data['train'] = DatasetHandler.over_sampling(data['train'])
         # print("####  size: ", len(data['train'][0]))
+        
+        ## =========== test whether there are abnormal data =================
+        for i, modal_name in enumerate(modal_type_list):
+            print(f"\n=== Modal {modal_name} (index {i}) ===")
+            shapes = []
+            for sample in data['train'][i]:
+                if hasattr(sample, 'shape'):
+                    shapes.append(sample.shape)
+                else:
+                    shapes.append(('not array', type(sample)))
+            
+            # 统计 unique shapes
+            from collections import Counter
+            shape_counts = Counter(shapes)
+            print("Unique shapes in train:", shape_counts)
+
+            # 对比 valid
+            valid_shapes = [s.shape if hasattr(s, 'shape') else ('not array', type(s)) for s in data['valid'][i]]
+            valid_shape_counts = Counter(valid_shapes)
+            print("Unique shapes in valid:", valid_shape_counts)
+            
+        ## =================================
+        
+        ## for those with more than two shapes, please run the following code.
+        ## 
+        # def align_sequence_length_0(samples, target_len=17):
+        #     aligned = []
+        #     for s in samples:
+        #         if s.shape[0] > target_len:
+        #             # 截断（保留前 target_len 步）
+        #             aligned.append(s[:target_len])
+        #         elif s.shape[0] < target_len:
+        #             # 填充（用0）
+        #             pad_width = ((0, target_len - s.shape[0]), (0, 0))
+        #             padded = np.pad(s, pad_width, mode='constant', constant_values=0)
+        #             aligned.append(padded)
+        #         else:
+        #             aligned.append(s)
+        #     return aligned
+        
+        # import numpy as np
+
+        # def align_sequence_length_1(samples, target_len=17):
+        #     aligned = []
+        #     for s in samples:
+        #         current_len = s.shape[0]
+        #         if current_len > target_len:
+        #             # 截断：保留前 target_len 步
+        #             aligned.append(s[:target_len])
+        #         elif current_len < target_len:
+        #             # 填充：用最后一帧重复补齐
+        #             last_frame = s[-1:]  # 保持维度 (1, F)
+        #             repeat_times = target_len - current_len
+        #             padded = np.concatenate([s, np.repeat(last_frame, repeat_times, axis=0)], axis=0)
+        #             aligned.append(padded)
+        #         else:
+        #             # 长度正好，直接保留
+        #             aligned.append(s)
+        #     return aligned
+        
+        # for data_type in ['train', 'valid', 'test']:
+        #     for i in range(len(modal_type_list)):
+        #         data[data_type][i] = align_sequence_length_1(data[data_type][i], target_len=17)
 
         for data_type in ['train', 'valid', 'test']:
             for i in range(len(modal_type_list)):
@@ -55,7 +118,14 @@ class DatasetHandler:
                 # data_tmp = np.array(data[data_type][i], dtype=object)
                 # print(data_tmp.shape)
                 # result_dict['data'][f'x_{modal_type_list[i]}_{data_type}'] = data_tmp
-                result_dict['data'][f'x_{modal_type_list[i]}_{data_type}'] = np.array(data[data_type][i], dtype=object)
+                # result_dict['data'][f'x_{modal_type_list[i]}_{data_type}'] = np.array(data[data_type][i], dtype=object) # old
+                try:
+                    arr = np.stack(data[data_type][i])  # 要求所有样本 shape 一致
+                except ValueError as e:
+                    print(f"Shape mismatch in {data_type}, modal {i}: {e}")
+                    # fallback to object array or debug
+                    arr = np.array(data[data_type][i], dtype=object)
+                result_dict['data'][f'x_{modal_type_list[i]}_{data_type}'] = arr
             result_dict['data'][f'ent_edge_index_{data_type}'] = data[data_type][len(modal_type_list)]
 
             if multi_class_label_format:

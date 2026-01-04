@@ -2,7 +2,7 @@ import sys
 
 import pandas as pd
 
-sys.path.append('/root/shared-nvme/work/code/Repdf/code')
+sys.path.append('/root/shared-nvme/work/code/RCA/IncluRCA/code')
 
 import numpy as np
 import json
@@ -80,7 +80,7 @@ class LogGenerator(BaseGenerator):
                     tf = temp_dict[language][i]
                 else:
                     # tf = np.true_divide(temp_dict[language][i], sum_list)
-                    # bug: /root/shared-nvme/work/code/Repdf/code/data_filter/CCF_AIOps_challenge_2022/service/log_generator.py:82: RuntimeWarning: invalid value encountered in divide
+                    # bug: /root/shared-nvme/work/code/RCA/IncluRCA/code/data_filter/CCF_AIOps_challenge_2022/service/log_generator.py:82: RuntimeWarning: invalid value encountered in divide
                     numerator = temp_dict[language][i]
                     denominator = sum_list
 

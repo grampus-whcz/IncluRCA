@@ -68,7 +68,18 @@ if __name__ == '__main__':
     
     parser.add_argument("--explainer_mask_acti_func", default="relu", type=str)
     
-        ## change these paths according to your environment
+    parser.add_argument("--GAT_name3", default="GATv2Conv", type=str)
+    parser.add_argument("--GAT_name4", default="GATv2Conv", type=str)
+    parser.add_argument("--GAT_name5", default="GATv2Conv", type=str)
+    parser.add_argument("--activ_fun3", default="elu", type=str)
+    parser.add_argument("--activ_fun4", default="elu", type=str)
+    parser.add_argument("--activ_fun5", default="elu", type=str)  
+    
+    # FeatureIntegration
+    parser.add_argument("--squeeze_type", default="avg", type=str)
+    parser.add_argument("--excite_type", default="fc", type=str)
+    
+    ## change these paths according to your environment
     parser.add_argument("--window_size", default=11, type=int, help="Size of the sliding window for data processing")
     parser.add_argument("--data_base_path", type=str, required=True, help="Base path for the dataset")
     parser.add_argument("--dataset_path", type=str, 

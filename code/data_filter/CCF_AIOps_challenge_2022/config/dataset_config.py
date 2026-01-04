@@ -47,7 +47,7 @@ class DataConfig:
         }
 
     def set_param_dict(self):
-        data_base_path = '/root/shared-nvme/work/code/Repdf'
+        data_base_path = '/root/shared-nvme/work/code/RCA/IncluRCA'
         self.param_dict = {
             'logging': {
                 'level': 'DEBUG'

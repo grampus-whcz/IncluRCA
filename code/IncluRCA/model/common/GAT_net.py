@@ -41,3 +41,6 @@ class GATNet(nn.Module):
         x = gat_class2(self.conv2(x, edge_index))
         x = x.view(batch_size, int(x.shape[0] / batch_size), x.shape[1]).contiguous()
         return x
+    
+    def get_gat_modules(self):
+        return [self.conv1, self.conv2]

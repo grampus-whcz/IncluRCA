@@ -50,7 +50,9 @@ class Explainer(nn.Module):
 
     def set_masks(self, test_sample_data):
         edge_index = torch.squeeze(test_sample_data['ent_edge_index'])
-        for module in self.model[2].GAT_net.modules():
+        # for module in self.model[2].GAT_net.modules():
+        gat_modules = self.model[2].GAT_net.get_gat_modules()
+        for module in gat_modules:
             loop_mask = torch.full_like(edge_index[0], True, dtype=bool)
             if isinstance(module, MessagePassing):
                 module.explain = True
@@ -59,7 +61,9 @@ class Explainer(nn.Module):
                 module._apply_sigmoid = True
 
     def clean_explainer(self):
-        for module in self.model[2].GAT_net.modules():
+        # for module in self.model[2].GAT_net.modules():
+        gat_modules = self.model[2].GAT_net.get_gat_modules()
+        for module in gat_modules:
             if isinstance(module, MessagePassing):
                 module.explain = False
                 module._edge_mask = None

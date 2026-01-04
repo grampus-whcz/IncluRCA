@@ -16,7 +16,7 @@ def find_keyword_in_dict(d, keyword, dictkey):
     return None
 
 # 读取 JSON 文件
-file_path = '/root/shared-nvme/work/code/Repdf/temp_data/2022_CCF_AIOps_challenge/analysis/log/log_patterns.json'  # 替换为你的实际文件路径
+file_path = '/root/shared-nvme/work/code/RCA/IncluRCA/temp_data/2022_CCF_AIOps_challenge/analysis/log/log_patterns.json'  # 替换为你的实际文件路径
 try:
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)

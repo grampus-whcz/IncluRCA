@@ -1,6 +1,5 @@
 from abc import ABC
-# from data_filter.CCF_AIOps_challenge_2025_api.config.dataset_config import DataConfig
-from data_filter.CCF_AIOps_challenge_2025_api.config.dataset_config_phasetwo import DataConfig
+from data_filter.CCF_AIOps_challenge_2025_api.config.dataset_config import DataConfig
 from shared_util.logger import Logger
 from datetime import datetime, timedelta
 

@@ -58,6 +58,7 @@ if __name__ == '__main__':
 
     parser.add_argument("--ec_fault_types", default=15, type=int)
     
+    # FeatureFusion
     parser.add_argument("--GAT_name1", default="GATv2Conv", type=str)
     parser.add_argument("--GAT_name2", default="GATv2Conv", type=str)
     parser.add_argument("--activ_fun1", default="elu", type=str)
@@ -65,6 +66,16 @@ if __name__ == '__main__':
     
     parser.add_argument("--explainer_mask_acti_func", default="relu", type=str)
     
+    parser.add_argument("--GAT_name3", default="GATv2Conv", type=str)
+    parser.add_argument("--GAT_name4", default="GATv2Conv", type=str)
+    parser.add_argument("--GAT_name5", default="GATv2Conv", type=str)
+    parser.add_argument("--activ_fun3", default="elu", type=str)
+    parser.add_argument("--activ_fun4", default="elu", type=str)
+    parser.add_argument("--activ_fun5", default="elu", type=str)
+    
+    # FeatureIntegration
+    parser.add_argument("--squeeze_type", default="avg", type=str)
+    parser.add_argument("--excite_type", default="fc", type=str)
     
     ## change these paths according to your environment
     parser.add_argument("--window_size", default=11, type=int, help="Size of the sliding window for data processing")

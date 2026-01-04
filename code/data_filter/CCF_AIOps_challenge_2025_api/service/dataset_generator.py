@@ -68,13 +68,13 @@ class DatasetGenerator(BaseGenerator):
                 "api": 0
             },
             'ent_fault_type_index': {
-                "node": (0, 14),
+                "node": (0, 14),  # phaseone 14, phasetwo 13
                 "service": (0, 14),
                 "tidb": (0, 14),
                 "pod": (0, 14),                
             },
             'ent_fault_type_weight': {
-                "node": [138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138],
+                "node": [138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138, 138], # phaseone 14, phasetwo 13
                 "service": [231, 231, 231, 231, 231, 231, 231, 231, 231, 231, 231, 231, 231, 231],
                 "tidb": [183, 183, 183, 183, 183, 183, 183, 183, 183, 183, 183, 183, 183, 183],
                 "pod": [183, 183, 183, 183, 183, 183, 183, 183, 183, 183, 183, 183, 183, 183]                
@@ -141,7 +141,7 @@ class DatasetGenerator(BaseGenerator):
                                                   valid_ratio=0.2,
                                                   y=y,
                                                   multi_class_label_format=True,
-                                                  num_of_fault_types=14,
+                                                  num_of_fault_types=14, # phaseone 14, phasetwo 13
                                                   meta_data=self.meta_data,
                                                   save_file_path=f'{folder}/rca_multimodal_window_size_{window_size}.pkl')
 

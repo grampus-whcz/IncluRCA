@@ -3,7 +3,8 @@ from collections import defaultdict
 import os
 
 # 文件路径
-file_path = '/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/answer/phase1.jsonl'
+# file_path = '/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/answer/phase1.jsonl'
+file_path = '/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/answer/phase2.jsonl'
 
 # 用于存储结果：fault_category -> set of fault_type
 category_to_types = defaultdict(set)
@@ -47,7 +48,7 @@ else:
         print(f"❌ 读取文件时发生异常: {e}")
         
         
-# 🔍 故障类别（fault_category）及其包含的故障类型（fault_type）：
+# 🔍 phase1 故障类别（fault_category）及其包含的故障类型（fault_type）：
 
 # 📁 jvm fault:
 #     ├── jvm cpu
@@ -68,6 +69,38 @@ else:
 # 📁 pod fault:
 #     ├── pod failure
 #     ├── pod kill
+
+# 📁 stress test:
+#     ├── cpu stress
+#     ├── memory stress
+
+
+# 🔍 phase2 故障类别（fault_category）及其包含的故障类型（fault_type）：
+
+# 📁 dns fault:
+#     ├── dns error
+
+# 📁 erroneous change:
+#     ├── code error
+
+# 📁 io fault:
+#     ├── io fault
+
+# 📁 misconfiguration:
+#     ├── target port misconfig
+
+# 📁 network attack:
+#     ├── network corrupt
+#     ├── network delay
+#     ├── network loss
+
+# 📁 node fault:
+#     ├── node cpu
+#     ├── node disk fill
+#     ├── node memory
+
+# 📁 pod fault:
+#     ├── pod failure
 
 # 📁 stress test:
 #     ├── cpu stress

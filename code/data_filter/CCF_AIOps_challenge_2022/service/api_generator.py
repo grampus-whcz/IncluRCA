@@ -2,7 +2,7 @@ import os
 import sys
 import pandas as pd
 
-sys.path.append('/root/shared-nvme/work/code/Repdf/code')
+sys.path.append('/root/shared-nvme/work/code/RCA/IncluRCA/code')
 
 import numpy as np
 import json

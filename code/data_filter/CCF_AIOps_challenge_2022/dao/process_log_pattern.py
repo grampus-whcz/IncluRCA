@@ -128,7 +128,7 @@ def process_json_with_regex(json_data):
 def main():
     """主函数"""
     # JSON文件路径
-    file_path = "/root/shared-nvme/work/code/Repdf/temp_data/2022_CCF_AIOps_challenge/analysis/log/log_patterns.json"
+    file_path = "/root/shared-nvme/work/code/RCA/IncluRCA/temp_data/2022_CCF_AIOps_challenge/analysis/log/log_patterns.json"
     
     # 加载JSON数据
     json_data = load_json(file_path)

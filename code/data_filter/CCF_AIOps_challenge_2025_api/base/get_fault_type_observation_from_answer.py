@@ -3,7 +3,8 @@ import os
 from collections import defaultdict
 
 # 文件路径
-file_path = '/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/answer/phase1.jsonl'
+# file_path = '/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/answer/phase1.jsonl'
+file_path = '/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/answer/phase2.jsonl'
 
 # 存储结果：fault_type -> { metric: set, log: set, trace: set }
 fault_type_to_signals = defaultdict(lambda: {
@@ -95,7 +96,7 @@ else:
         
         
         
-# 📊 每个 fault_type 关联的诊断信号（metric / log / trace）：
+# 📊 phase1 每个 fault_type 关联的诊断信号（metric / log / trace）：
 
 # 🔍 fault_type: cpu stress
 #    ├── metric: max_rrt+, pod_cpu_usage, pod_processes, request-, response-, rrt, rrt+, timeout+
@@ -166,3 +167,71 @@ else:
 #    ├── metric: client_error+, request-, response-, timeout+
 #    ├── trace: latency_anomalies, request_proportion_anomalies
 #    └── log: (无)
+
+
+# 📊 phase2 每个 fault_type 关联的诊断信号（metric / log / trace）：
+
+# 🔍 fault_type: code error
+#    ├── metric: client_error_ratio, error_ratio, rrt, timeout
+#    ├── trace: latency_anomalies, request_proportion_anomalies
+#    └── log: error, exception, failed
+
+# 🔍 fault_type: cpu stress
+#    ├── metric: pod_cpu_usage, pod_processes, rrt, timeout
+#    ├── trace: latency_anomalies
+#    └── log: error, exception
+
+# 🔍 fault_type: dns error
+#    ├── metric: error_ratio, rrt, server_error_ratio
+#    ├── trace: latency_anomalies
+#    └── log: error, exception, failed, misbehaving, timeout, unavailable
+
+# 🔍 fault_type: io fault
+#    ├── metric: tikv_cpu_usage, tikv_read_mbps, tikv_snapshot_apply_count, tikv_write_wal_mbps
+#    ├── trace: latency_anomalies
+#    └── log: (无)
+
+# 🔍 fault_type: memory stress
+#    ├── metric: client_error_ratio, error_ratio
+#    ├── trace: (无)
+#    └── log: error, exception, failed
+
+# 🔍 fault_type: network corrupt
+#    ├── metric: rrt
+#    ├── trace: latency_anomalies, request_proportion_anomalies
+#    └── log: error, exception, failed, timeout, unavailable
+
+# 🔍 fault_type: network delay
+#    ├── metric: client_error_ratio, error_ratio, rrt, timeout
+#    ├── trace: latency_anomalies
+#    └── log: error, exception
+
+# 🔍 fault_type: network loss
+#    ├── metric: client_error_ratio, error_ratio, rrt, timeout
+#    ├── trace: latency_anomalies, request_proportion_anomalies
+#    └── log: abort, disconnect, error, exception, failed, retry, timeout
+
+# 🔍 fault_type: node cpu
+#    ├── metric: node_cpu_usage_rate
+#    ├── trace: request_proportion_anomalies
+#    └── log: (无)
+
+# 🔍 fault_type: node disk fill
+#    ├── metric: node_filesystem_usage_rate
+#    ├── trace: latency_anomalies
+#    └── log: (无)
+
+# 🔍 fault_type: node memory
+#    ├── metric: node_memory_usage_rate
+#    ├── trace: latency_anomalies, request_proportion_anomalies
+#    └── log: error, exception, failed, refused, timeout
+
+# 🔍 fault_type: pod failure
+#    ├── metric: (无)
+#    ├── trace: latency_anomalies, request_proportion_anomalies
+#    └── log: error, failed, refused, timeout, unavailable
+
+# 🔍 fault_type: target port misconfig
+#    ├── metric: client_error_ratio, error_ratio
+#    ├── trace: latency_anomalies, request_proportion_anomalies
+#    └── log: error, exception, failed, refused, unavailable
