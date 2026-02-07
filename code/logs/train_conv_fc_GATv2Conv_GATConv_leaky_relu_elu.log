@@ -1,0 +1,6 @@
+FeatureIntegration using MultiScaleConvSEAttention with squeeze_type=conv, excite_type=fc
+----GATNet----
+GAT_name1:  GATv2Conv
+GAT_name2:  GATConv
+activ_fun1:  leaky_relu
+activ_fun2:  elu

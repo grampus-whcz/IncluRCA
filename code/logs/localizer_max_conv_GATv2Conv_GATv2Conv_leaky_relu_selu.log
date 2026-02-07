@@ -1,0 +1,8 @@
+a_localizer
+feature_integration_MultiScaleConvSEAttention avg conv reduction=32
+FeatureIntegration using MultiScaleConvSEAttention with squeeze_type=avg, excite_type=conv
+----GATNet----
+GAT_name1:  GATv2Conv
+GAT_name2:  GATv2Conv
+activ_fun1:  leaky_relu
+activ_fun2:  selu

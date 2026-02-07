@@ -1,0 +1,172 @@
+============================================================
+📊 data set TT 所有微服务及其调用的操作 (operationName)
+============================================================
+
+🔧 微服务: ts-assurance-service
+   ├─ getAllAssuranceType
+
+🔧 微服务: ts-auth-service
+   ├─ GET
+   ├─ getToken
+
+🔧 微服务: ts-basic-service
+   ├─ GET
+   ├─ queryForStationId
+   ├─ queryForTravel
+
+🔧 微服务: ts-config-service
+   ├─ retrieve
+
+🔧 微服务: ts-contacts-service
+   ├─ findContactsByAccountId
+   ├─ getContactsByContactsId
+
+🔧 微服务: ts-food-map-service
+   ├─ getTrainFoodOfTrip
+
+🔧 微服务: ts-food-service
+   ├─ GET
+
+🔧 微服务: ts-order-other-service
+   ├─ securityInfoCheck
+
+🔧 微服务: ts-order-service
+   ├─ POST
+   ├─ calculateSoldTicket
+   ├─ getTicketListByDateAndTripId
+   ├─ queryOrdersForRefresh
+   ├─ securityInfoCheck
+
+🔧 微服务: ts-preserve-service
+   ├─ GET
+   ├─ preserve
+
+🔧 微服务: ts-price-service
+   ├─ query
+
+🔧 微服务: ts-route-service
+   ├─ queryById
+
+🔧 微服务: ts-seat-service
+   ├─ GET
+   ├─ POST
+   ├─ getLeftTicketOfInterval
+
+🔧 微服务: ts-security-service
+   ├─ GET
+   ├─ check
+
+🔧 微服务: ts-station-service
+   ├─ queryForNameBatch
+   ├─ queryForStationId
+
+🔧 微服务: ts-ticketinfo-service
+   ├─ GET
+   ├─ POST
+   ├─ queryForStationId
+   ├─ queryForTravel
+
+🔧 微服务: ts-train-service
+   ├─ retrieve
+
+🔧 微服务: ts-travel-service
+   ├─ GET
+   ├─ POST
+   ├─ queryInfo
+
+🔧 微服务: ts-verification-code-service
+   ├─ imageCode
+   ├─ verifyCode
+
+
+============================================================
+📊 data set SN 所有微服务及其调用的操作 (operationName)
+============================================================
+
+🔧 微服务: compose-post-service
+   ├─ compose_creator_client
+   ├─ compose_media_client
+   ├─ compose_post_server
+   ├─ compose_text_client
+   ├─ compose_unique_id_client
+   ├─ store_post_client
+   ├─ write_home_timeline_client
+   ├─ write_user_timeline_client
+
+🔧 微服务: home-timeline-service
+   ├─ get_followers_client
+   ├─ read_home_timeline_redis_find_client
+   ├─ read_home_timeline_server
+   ├─ write_home_timeline_server
+
+🔧 微服务: media-service
+   ├─ compose_media_server
+
+🔧 微服务: nginx-web-server
+   ├─ /api/home-timeline/read
+   ├─ /api/post/compose
+   ├─ /api/user/follow
+   ├─ /api/user/get_followee
+   ├─ /api/user/get_follower
+   ├─ /api/user/login
+   ├─ /api/user/register
+   ├─ /api/user/unfollow
+   ├─ Follow
+   ├─ GetFollowee
+   ├─ GetFollower
+   ├─ Login
+   ├─ RegisterUser
+   ├─ Unfollow
+   ├─ compose_post_client
+
+🔧 微服务: post-storage-service
+   ├─ post_storage_mongo_insert_client
+   ├─ post_storage_read_posts_server
+   ├─ store_post_server
+
+🔧 微服务: social-graph-service
+   ├─ follow_server
+   ├─ follow_with_username_server
+   ├─ get_followees_server
+   ├─ get_followers_server
+   ├─ mongo_update_client
+   ├─ social_graph_mongo_delete_client
+   ├─ social_graph_mongo_find_client
+   ├─ social_graph_mongo_update_client
+   ├─ social_graph_redis_get_client
+   ├─ social_graph_redis_insert_client
+   ├─ social_graph_redis_update_client
+   ├─ unfollow_server
+   ├─ unfollow_with_username_server
+
+🔧 微服务: text-service
+   ├─ compose_text_server
+   ├─ compose_urls_client
+   ├─ compose_user_mentions_client
+
+🔧 微服务: unique-id-service
+   ├─ compose_unique_id_server
+
+🔧 微服务: url-shorten-service
+   ├─ compose_urls_server
+
+🔧 微服务: user-mention-service
+   ├─ compose_user_mentions_server
+
+🔧 微服务: user-service
+   ├─ compose_creator_server
+   ├─ get_user_id_server
+   ├─ login_server
+   ├─ register_user_server
+   ├─ user_mmc_get_client
+   ├─ user_mmc_get_user_id_client
+
+🔧 微服务: user-timeline-service
+   ├─ write_user_timeline_mongo_insert_client
+   ├─ write_user_timeline_redis_update_client
+   ├─ write_user_timeline_server
+
+
+
+
+

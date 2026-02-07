@@ -1,0 +1,391 @@
+nohup: ignoring input
+2025-09-23 18:09:38,097 - INFO - Preprocessing traces: dataset_type: train_valid, date: 2025-06-06, cloudbed: cloudbed.
+2025-09-23 18:09:38,141 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_00-00-00.parquet.
+2025-09-23 18:10:14,979 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_01-00-00.parquet.
+2025-09-23 18:10:47,583 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_02-00-00.parquet.
+2025-09-23 18:11:11,093 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_03-00-00.parquet.
+2025-09-23 18:11:46,717 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_04-00-00.parquet.
+2025-09-23 18:12:17,954 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_05-00-00.parquet.
+2025-09-23 18:12:49,016 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_06-00-00.parquet.
+2025-09-23 18:13:24,842 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_07-00-00.parquet.
+2025-09-23 18:13:59,547 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_08-00-00.parquet.
+2025-09-23 18:14:35,421 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_09-00-00.parquet.
+2025-09-23 18:15:23,047 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_10-00-00.parquet.
+2025-09-23 18:16:47,670 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_11-00-00.parquet.
+2025-09-23 18:18:35,750 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_12-00-00.parquet.
+2025-09-23 18:19:57,328 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_13-00-00.parquet.
+2025-09-23 18:21:44,164 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_14-00-00.parquet.
+2025-09-23 18:23:28,904 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_15-00-00.parquet.
+2025-09-23 18:24:57,659 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_16-00-00.parquet.
+2025-09-23 18:26:54,157 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_17-00-00.parquet.
+2025-09-23 18:28:58,952 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_18-00-00.parquet.
+2025-09-23 18:30:55,298 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_19-00-00.parquet.
+2025-09-23 18:33:10,972 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_20-00-00.parquet.
+2025-09-23 18:35:04,282 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_21-00-00.parquet.
+2025-09-23 18:35:54,908 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_22-00-00.parquet.
+2025-09-23 18:36:33,991 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_23-00-00.parquet.
+2025-09-23 18:37:21,294 - INFO - Preprocessing traces: dataset_type: train_valid, date: 2025-06-07, cloudbed: cloudbed.
+2025-09-23 18:37:21,331 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_00-00-00.parquet.
+2025-09-23 18:37:46,868 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_01-00-00.parquet.
+2025-09-23 18:38:22,563 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_02-00-00.parquet.
+2025-09-23 18:38:56,434 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_03-00-00.parquet.
+2025-09-23 18:39:30,514 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_04-00-00.parquet.
+2025-09-23 18:40:04,861 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_05-00-00.parquet.
+2025-09-23 18:40:38,483 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_06-00-00.parquet.
+2025-09-23 18:41:14,379 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_07-00-00.parquet.
+2025-09-23 18:41:35,891 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_08-00-00.parquet.
+2025-09-23 18:42:11,526 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_09-00-00.parquet.
+2025-09-23 18:43:00,131 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_10-00-00.parquet.
+2025-09-23 18:44:16,223 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_11-00-00.parquet.
+2025-09-23 18:45:48,042 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_12-00-00.parquet.
+2025-09-23 18:47:37,949 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_13-00-00.parquet.
+2025-09-23 18:48:56,055 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_14-00-00.parquet.
+2025-09-23 18:50:35,344 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_15-00-00.parquet.
+2025-09-23 18:51:47,651 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_16-00-00.parquet.
+2025-09-23 18:53:41,981 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_17-00-00.parquet.
+2025-09-23 18:55:52,343 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_18-00-00.parquet.
+2025-09-23 18:58:12,792 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_19-00-00.parquet.
+2025-09-23 19:00:31,917 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_20-00-00.parquet.
+2025-09-23 19:01:56,837 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_21-00-00.parquet.
+2025-09-23 19:02:45,768 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_22-00-00.parquet.
+2025-09-23 19:03:11,712 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_23-00-00.parquet.
+2025-09-23 19:04:00,707 - INFO - Preprocessing traces: dataset_type: train_valid, date: 2025-06-08, cloudbed: cloudbed.
+2025-09-23 19:04:00,739 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_00-00-00.parquet.
+2025-09-23 19:04:35,632 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_01-00-00.parquet.
+2025-09-23 19:05:10,998 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_02-00-00.parquet.
+2025-09-23 19:05:42,563 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_03-00-00.parquet.
+2025-09-23 19:06:17,889 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_04-00-00.parquet.
+2025-09-23 19:06:52,451 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_05-00-00.parquet.
+2025-09-23 19:07:27,976 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_06-00-00.parquet.
+2025-09-23 19:08:04,317 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_07-00-00.parquet.
+2025-09-23 19:08:39,893 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_08-00-00.parquet.
+2025-09-23 19:09:15,759 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_09-00-00.parquet.
+2025-09-23 19:09:56,880 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_10-00-00.parquet.
+2025-09-23 19:11:26,059 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_11-00-00.parquet.
+2025-09-23 19:13:14,013 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_12-00-00.parquet.
+2025-09-23 19:15:09,332 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_13-00-00.parquet.
+2025-09-23 19:17:01,712 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_14-00-00.parquet.
+2025-09-23 19:18:54,895 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_15-00-00.parquet.
+2025-09-23 19:20:49,064 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_16-00-00.parquet.
+2025-09-23 19:22:50,414 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_17-00-00.parquet.
+2025-09-23 19:24:17,382 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_18-00-00.parquet.
+2025-09-23 19:26:23,533 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_19-00-00.parquet.
+2025-09-23 19:28:12,920 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_20-00-00.parquet.
+2025-09-23 19:30:02,955 - INFO - Preprocessing traces: dataset_type: train_valid, date: 2025-06-09, cloudbed: cloudbed.
+2025-09-23 19:30:03,002 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_06-00-00.parquet.
+2025-09-23 19:30:20,073 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_07-00-00.parquet.
+2025-09-23 19:30:56,319 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_08-00-00.parquet.
+2025-09-23 19:31:31,547 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_09-00-00.parquet.
+2025-09-23 19:32:17,369 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_10-00-00.parquet.
+2025-09-23 19:33:46,421 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_11-00-00.parquet.
+2025-09-23 19:35:33,354 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_12-00-00.parquet.
+2025-09-23 19:37:25,854 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_13-00-00.parquet.
+2025-09-23 19:39:08,884 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_14-00-00.parquet.
+2025-09-23 19:40:57,848 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_15-00-00.parquet.
+2025-09-23 19:42:49,384 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_16-00-00.parquet.
+2025-09-23 19:44:48,273 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_17-00-00.parquet.
+2025-09-23 19:46:55,753 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_18-00-00.parquet.
+2025-09-23 19:48:58,424 - INFO - Preprocessing traces: dataset_type: train_valid, date: 2025-06-10, cloudbed: cloudbed.
+2025-09-23 19:48:58,438 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_05-00-00.parquet.
+2025-09-23 19:49:11,810 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_06-00-00.parquet.
+2025-09-23 19:49:36,826 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_07-00-00.parquet.
+2025-09-23 19:50:11,582 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_08-00-00.parquet.
+2025-09-23 19:50:29,530 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_09-00-00.parquet.
+2025-09-23 19:51:15,238 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_10-00-00.parquet.
+2025-09-23 19:52:39,809 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_11-00-00.parquet.
+2025-09-23 19:54:22,074 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_12-00-00.parquet.
+2025-09-23 19:56:09,110 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_13-00-00.parquet.
+2025-09-23 19:57:56,903 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_14-00-00.parquet.
+2025-09-23 19:59:42,647 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_15-00-00.parquet.
+2025-09-23 20:01:32,101 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_16-00-00.parquet.
+2025-09-23 20:03:27,420 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_17-00-00.parquet.
+2025-09-23 20:05:32,018 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_18-00-00.parquet.
+2025-09-23 20:07:46,377 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_19-00-00.parquet.
+2025-09-23 20:10:05,067 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_20-00-00.parquet.
+2025-09-23 20:11:30,310 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_21-00-00.parquet.
+2025-09-23 20:12:44,011 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_22-00-00.parquet.
+2025-09-23 20:13:22,696 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_23-00-00.parquet.
+2025-09-23 20:14:13,850 - INFO - Preprocessing traces: dataset_type: train_valid, date: 2025-06-11, cloudbed: cloudbed.
+2025-09-23 20:14:13,886 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_00-00-00.parquet.
+2025-09-23 20:14:43,881 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_01-00-00.parquet.
+2025-09-23 20:15:17,465 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_02-00-00.parquet.
+2025-09-23 20:15:51,419 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_03-00-00.parquet.
+2025-09-23 20:16:23,583 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_04-00-00.parquet.
+2025-09-23 20:16:58,162 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_05-00-00.parquet.
+2025-09-23 20:17:33,200 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_06-00-00.parquet.
+2025-09-23 20:18:08,441 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_07-00-00.parquet.
+2025-09-23 20:18:43,998 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_08-00-00.parquet.
+2025-09-23 20:19:10,132 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_09-00-00.parquet.
+2025-09-23 20:19:56,596 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_10-00-00.parquet.
+2025-09-23 20:21:17,312 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_11-00-00.parquet.
+2025-09-23 20:23:01,187 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_12-00-00.parquet.
+2025-09-23 20:24:50,449 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_13-00-00.parquet.
+2025-09-23 20:26:36,483 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_14-00-00.parquet.
+2025-09-23 20:28:24,827 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_15-00-00.parquet.
+2025-09-23 20:30:07,375 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_16-00-00.parquet.
+2025-09-23 20:32:04,275 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_17-00-00.parquet.
+2025-09-23 20:34:12,126 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_18-00-00.parquet.
+2025-09-23 20:36:30,989 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_19-00-00.parquet.
+2025-09-23 20:38:52,548 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_20-00-00.parquet.
+2025-09-23 20:40:55,392 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_21-00-00.parquet.
+2025-09-23 20:42:08,128 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_22-00-00.parquet.
+2025-09-23 20:42:41,078 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_23-00-00.parquet.
+2025-09-23 20:43:34,413 - INFO - Preprocessing traces: dataset_type: test, date: 2025-06-12, cloudbed: cloudbed.
+2025-09-23 20:43:34,448 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_00-00-00.parquet.
+2025-09-23 20:43:59,590 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_01-00-00.parquet.
+2025-09-23 20:44:31,815 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_02-00-00.parquet.
+2025-09-23 20:45:05,262 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_03-00-00.parquet.
+2025-09-23 20:45:29,198 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_04-00-00.parquet.
+2025-09-23 20:46:02,893 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_05-00-00.parquet.
+2025-09-23 20:46:38,011 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_06-00-00.parquet.
+2025-09-23 20:47:01,243 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_07-00-00.parquet.
+2025-09-23 20:47:35,229 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_08-00-00.parquet.
+2025-09-23 20:48:09,326 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_09-00-00.parquet.
+2025-09-23 20:48:55,462 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_10-00-00.parquet.
+2025-09-23 20:50:20,498 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_11-00-00.parquet.
+2025-09-23 20:52:01,321 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_12-00-00.parquet.
+2025-09-23 20:53:49,373 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_13-00-00.parquet.
+2025-09-23 20:55:34,704 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_14-00-00.parquet.
+2025-09-23 20:57:20,226 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_15-00-00.parquet.
+2025-09-23 20:59:10,484 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_16-00-00.parquet.
+2025-09-23 21:01:07,557 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_17-00-00.parquet.
+2025-09-23 21:03:13,146 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_18-00-00.parquet.
+2025-09-23 21:04:37,676 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_19-00-00.parquet.
+2025-09-23 21:05:53,986 - INFO - Preprocessing traces: dataset_type: test, date: 2025-06-13, cloudbed: cloudbed.
+2025-09-23 21:05:54,021 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_01-00-00.parquet.
+2025-09-23 21:06:27,027 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_02-00-00.parquet.
+2025-09-23 21:07:00,737 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_03-00-00.parquet.
+2025-09-23 21:07:35,217 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_04-00-00.parquet.
+2025-09-23 21:07:57,843 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_05-00-00.parquet.
+2025-09-23 21:08:31,061 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_06-00-00.parquet.
+2025-09-23 21:09:05,270 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_07-00-00.parquet.
+2025-09-23 21:09:38,608 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_08-00-00.parquet.
+2025-09-23 21:10:12,577 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_09-00-00.parquet.
+2025-09-23 21:10:58,616 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_10-00-00.parquet.
+2025-09-23 21:12:23,338 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_11-00-00.parquet.
+2025-09-23 21:14:06,015 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_12-00-00.parquet.
+2025-09-23 21:15:47,488 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_13-00-00.parquet.
+2025-09-23 21:17:33,791 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_14-00-00.parquet.
+2025-09-23 21:19:19,527 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_15-00-00.parquet.
+2025-09-23 21:21:07,565 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_16-00-00.parquet.
+2025-09-23 21:23:02,362 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_17-00-00.parquet.
+2025-09-23 21:25:08,261 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_18-00-00.parquet.
+2025-09-23 21:27:06,299 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_19-00-00.parquet.
+2025-09-23 21:27:40,570 - INFO - Preprocessing traces: dataset_type: test, date: 2025-06-14, cloudbed: cloudbed.
+2025-09-23 21:27:40,600 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_01-00-00.parquet.
+2025-09-23 21:28:08,068 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_02-00-00.parquet.
+2025-09-23 21:28:41,524 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_03-00-00.parquet.
+2025-09-23 21:29:14,995 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_04-00-00.parquet.
+2025-09-23 21:29:49,013 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_05-00-00.parquet.
+2025-09-23 21:30:23,240 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_06-00-00.parquet.
+2025-09-23 21:30:56,420 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_07-00-00.parquet.
+2025-09-23 21:31:30,212 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_08-00-00.parquet.
+2025-09-23 21:32:04,869 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_09-00-00.parquet.
+2025-09-23 21:32:50,796 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_10-00-00.parquet.
+2025-09-23 21:34:15,019 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_11-00-00.parquet.
+2025-09-23 21:35:24,012 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_12-00-00.parquet.
+2025-09-23 21:37:12,413 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_13-00-00.parquet.
+2025-09-23 21:38:56,790 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_14-00-00.parquet.
+2025-09-23 21:40:30,888 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_15-00-00.parquet.
+2025-09-23 21:42:17,261 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_16-00-00.parquet.
+2025-09-23 21:44:16,929 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_17-00-00.parquet.
+2025-09-23 21:45:43,176 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_18-00-00.parquet.
+2025-09-23 21:47:34,677 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_19-00-00.parquet.
+2025-09-23 21:48:58,529 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_20-00-00.parquet.
+2025-09-23 21:50:10,812 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_21-00-00.parquet.
+2025-09-23 21:50:58,494 - INFO - path: /root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_22-00-00.parquet.
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_00-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_01-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_02-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_03-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_04-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_05-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_06-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_07-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_08-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_09-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_10-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_11-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_12-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_13-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_14-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_15-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_16-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_17-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_18-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_19-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_20-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_21-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_22-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-06/cloudbed/trace-parquet/trace_jaeger-span_2025-06-06_23-00-00.parquet
+writing to csv:  /root/shared-nvme/work/code/RCA/HolisticRCA/temp_data/2025_CCF_AIOps_challenge/raw_data/train_valid/2025-06-06/cloudbed/raw_trace/span_api_features.csv
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_00-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_01-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_02-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_03-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_04-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_05-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_06-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_07-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_08-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_09-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_10-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_11-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_12-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_13-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_14-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_15-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_16-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_17-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_18-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_19-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_20-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_21-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_22-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-07/cloudbed/trace-parquet/trace_jaeger-span_2025-06-07_23-00-00.parquet
+writing to csv:  /root/shared-nvme/work/code/RCA/HolisticRCA/temp_data/2025_CCF_AIOps_challenge/raw_data/train_valid/2025-06-07/cloudbed/raw_trace/span_api_features.csv
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_00-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_01-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_02-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_03-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_04-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_05-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_06-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_07-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_08-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_09-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_10-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_11-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_12-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_13-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_14-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_15-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_16-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_17-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_18-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_19-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-08/cloudbed/trace-parquet/trace_jaeger-span_2025-06-08_20-00-00.parquet
+writing to csv:  /root/shared-nvme/work/code/RCA/HolisticRCA/temp_data/2025_CCF_AIOps_challenge/raw_data/train_valid/2025-06-08/cloudbed/raw_trace/span_api_features.csv
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_06-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_07-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_08-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_09-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_10-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_11-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_12-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_13-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_14-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_15-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_16-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_17-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-09/cloudbed/trace-parquet/trace_jaeger-span_2025-06-09_18-00-00.parquet
+writing to csv:  /root/shared-nvme/work/code/RCA/HolisticRCA/temp_data/2025_CCF_AIOps_challenge/raw_data/train_valid/2025-06-09/cloudbed/raw_trace/span_api_features.csv
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_05-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_06-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_07-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_08-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_09-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_10-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_11-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_12-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_13-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_14-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_15-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_16-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_17-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_18-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_19-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_20-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_21-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_22-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-10/cloudbed/trace-parquet/trace_jaeger-span_2025-06-10_23-00-00.parquet
+writing to csv:  /root/shared-nvme/work/code/RCA/HolisticRCA/temp_data/2025_CCF_AIOps_challenge/raw_data/train_valid/2025-06-10/cloudbed/raw_trace/span_api_features.csv
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_00-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_01-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_02-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_03-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_04-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_05-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_06-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_07-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_08-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_09-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_10-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_11-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_12-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_13-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_14-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_15-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_16-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_17-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_18-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_19-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_20-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_21-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_22-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-11/cloudbed/trace-parquet/trace_jaeger-span_2025-06-11_23-00-00.parquet
+writing to csv:  /root/shared-nvme/work/code/RCA/HolisticRCA/temp_data/2025_CCF_AIOps_challenge/raw_data/train_valid/2025-06-11/cloudbed/raw_trace/span_api_features.csv
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_00-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_01-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_02-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_03-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_04-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_05-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_06-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_07-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_08-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_09-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_10-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_11-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_12-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_13-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_14-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_15-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_16-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_17-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_18-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-12/cloudbed/trace-parquet/trace_jaeger-span_2025-06-12_19-00-00.parquet
+writing to csv:  /root/shared-nvme/work/code/RCA/HolisticRCA/temp_data/2025_CCF_AIOps_challenge/raw_data/test/2025-06-12/cloudbed/raw_trace/span_api_features.csv
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_01-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_02-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_03-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_04-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_05-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_06-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_07-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_08-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_09-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_10-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_11-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_12-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_13-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_14-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_15-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_16-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_17-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_18-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-13/cloudbed/trace-parquet/trace_jaeger-span_2025-06-13_19-00-00.parquet
+writing to csv:  /root/shared-nvme/work/code/RCA/HolisticRCA/temp_data/2025_CCF_AIOps_challenge/raw_data/test/2025-06-13/cloudbed/raw_trace/span_api_features.csv
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_01-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_02-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_03-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_04-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_05-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_06-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_07-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_08-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_09-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_10-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_11-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_12-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_13-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_14-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_15-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_16-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_17-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_18-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_19-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_20-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_21-00-00.parquet
+/root/shared-nvme/data_set/2025_CCF_aiops-live-benchmark/phaseone/2025-06-14/cloudbed/trace-parquet/trace_jaeger-span_2025-06-14_22-00-00.parquet
+writing to csv:  /root/shared-nvme/work/code/RCA/HolisticRCA/temp_data/2025_CCF_AIOps_challenge/raw_data/test/2025-06-14/cloudbed/raw_trace/span_api_features.csv

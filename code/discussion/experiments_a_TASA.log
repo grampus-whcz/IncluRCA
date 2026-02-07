@@ -1,0 +1,151 @@
+nohup: ignoring input
+IncluRCA a_rca_trainer old fusion
+feature_integration_TASAttention
+----GATNet----
+GAT_name1:  GATv2Conv
+GAT_name2:  GATConv
+activ_fun1:  relu6
+activ_fun2:  relu6
+Traceback (most recent call last):
+  File "/root/shared-nvme/work/code/RCA/IncluRCA/code/./IncluRCA/trainer/a_rca_trainer.py", line 104, in <module>
+    rca_data_trainer.train()
+  File "/root/shared-nvme/work/code/RCA/IncluRCA/code/IncluRCA/base/base_rca_trainer.py", line 57, in train
+    out = self.model(batch_data)
+  File "/root/shared-nvme/virtualenv/LasRCA_torch201_py3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/shared-nvme/virtualenv/LasRCA_torch201_py3.10/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/root/shared-nvme/virtualenv/LasRCA_torch201_py3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/shared-nvme/work/code/RCA/IncluRCA/code/IncluRCA/model/re/feature_integration_TASAttention.py", line 155, in forward
+    x = self.trend_attn_dict[ent_type](x)  # (B, T, F_total, in_dim)
+  File "/root/shared-nvme/virtualenv/LasRCA_torch201_py3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/shared-nvme/work/code/RCA/IncluRCA/code/IncluRCA/model/re/feature_integration_TASAttention.py", line 33, in forward
+    q = self.norm_q(self.cnn_q(X_))[:, :, :, :-self.padding].permute(0, 3, 2, 1)  # (B, T, N, D)
+  File "/root/shared-nvme/virtualenv/LasRCA_torch201_py3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/shared-nvme/virtualenv/LasRCA_torch201_py3.10/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/root/shared-nvme/virtualenv/LasRCA_torch201_py3.10/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Calculated padded input size per channel: (0 x 1322). Kernel size: (1 x 3). Kernel size can't be greater than actual input size
+nohup: ignoring input
+IncluRCA a_rca_trainer old fusion
+feature_integration_TASAttention
+Traceback (most recent call last):
+  File "/root/shared-nvme/work/code/RCA/IncluRCA/code/./IncluRCA/trainer/a_rca_trainer.py", line 103, in <module>
+    rca_data_trainer = ARCATrainer(params)
+  File "/root/shared-nvme/work/code/RCA/IncluRCA/code/./IncluRCA/trainer/a_rca_trainer.py", line 18, in __init__
+    super().__init__(param_dict)
+  File "/root/shared-nvme/work/code/RCA/IncluRCA/code/IncluRCA/base/base_rca_trainer.py", line 35, in __init__
+    re_feature_integration = FeatureIntegration(param_dict, self.rca_data_loader.meta_data)
+  File "/root/shared-nvme/work/code/RCA/IncluRCA/code/IncluRCA/model/re/feature_integration_TASAttention.py", line 90, in __init__
+    assert in_dim == K * d, f"in_dim ({in_dim}) must equal K*d ({K}*{d})"
+AssertionError: in_dim (512) must equal K*d (8*8)
+nohup: ignoring input
+IncluRCA a_rca_trainer old fusion
+feature_integration_TASAttention
+2025-11-17 20:03:51,213 - INFO - [0/300] | train_loss: 4.06274
+2025-11-17 20:03:51,513 - INFO - ----------
+2025-11-17 20:03:51,513 - INFO - evaluation dataset type: valid
+2025-11-17 20:03:51,530 - INFO - node    precision | micro: 0.006944; macro: 0.002315; score: [0.         0.         0.         0.         0.00555556 0.00833333]
+2025-11-17 20:03:51,530 - INFO - node    recall    | micro: 0.312500; macro: 0.333333; score: [0. 0. 0. 0. 1. 1.]
+2025-11-17 20:03:51,530 - INFO - node    f1        | micro: 0.013587; macro: 0.004596; score: [0.         0.         0.         0.         0.01104972 0.01652893]
+2025-11-17 20:03:51,615 - INFO - service precision | micro: 0.004167; macro: 0.001852; score: [0.         0.         0.         0.00833333 0.         0.
+ 0.00166667 0.         0.00666667]
+2025-11-17 20:03:51,616 - INFO - service recall    | micro: 0.416667; macro: 0.333333; score: [0. 0. 0. 1. 0. 0. 1. 0. 1.]
+2025-11-17 20:03:51,616 - INFO - service f1        | micro: 0.008251; macro: 0.003678; score: [0.         0.         0.         0.01652893 0.         0.
+ 0.00332779 0.         0.01324503]
+2025-11-17 20:03:51,650 - INFO - pod     precision | micro: 0.006111; macro: 0.004074; score: [0.         0.         0.00833333 0.00875    0.00958333 0.00166667
+ 0.         0.00041667 0.00791667]
+2025-11-17 20:03:51,650 - INFO - pod     recall    | micro: 0.758621; macro: 0.666667; score: [0. 0. 1. 1. 1. 1. 0. 1. 1.]
+2025-11-17 20:03:51,650 - INFO - pod     f1        | micro: 0.012125; macro: 0.008081; score: [0.         0.         0.01652893 0.0173482  0.01898473 0.00332779
+ 0.         0.00083299 0.01570897]
+2025-11-17 20:03:51,650 - INFO - ----------
+2025-11-17 20:03:53,412 - INFO - [1/300] | train_loss: 4.06284
+2025-11-17 20:03:55,216 - INFO - [2/300] | train_loss: 4.06266
+2025-11-17 20:03:57,015 - INFO - [3/300] | train_loss: 4.06263
+2025-11-17 20:03:58,817 - INFO - [4/300] | train_loss: 4.06281
+2025-11-17 20:04:00,618 - INFO - [5/300] | train_loss: 4.06206
+2025-11-17 20:04:02,413 - INFO - [6/300] | train_loss: 4.06207
+2025-11-17 20:04:04,212 - INFO - [7/300] | train_loss: 4.06245
+2025-11-17 20:04:06,013 - INFO - [8/300] | train_loss: 4.06266
+2025-11-17 20:04:07,817 - INFO - [9/300] | train_loss: 4.06260
+2025-11-17 20:04:09,617 - INFO - [10/300] | train_loss: 4.06208
+2025-11-17 20:04:09,844 - INFO - ----------
+2025-11-17 20:04:09,844 - INFO - evaluation dataset type: valid
+2025-11-17 20:04:09,924 - INFO - node    precision | micro: 0.006944; macro: 0.002315; score: [0.         0.         0.         0.         0.00555556 0.00833333]
+2025-11-17 20:04:09,924 - INFO - node    recall    | micro: 0.312500; macro: 0.333333; score: [0. 0. 0. 0. 1. 1.]
+2025-11-17 20:04:09,924 - INFO - node    f1        | micro: 0.013587; macro: 0.004596; score: [0.         0.         0.         0.         0.01104972 0.01652893]
+2025-11-17 20:04:09,942 - INFO - service precision | micro: 0.004167; macro: 0.001852; score: [0.         0.         0.         0.00833333 0.         0.
+ 0.00166667 0.         0.00666667]
+2025-11-17 20:04:09,942 - INFO - service recall    | micro: 0.416667; macro: 0.333333; score: [0. 0. 0. 1. 0. 0. 1. 0. 1.]
+2025-11-17 20:04:09,942 - INFO - service f1        | micro: 0.008251; macro: 0.003678; score: [0.         0.         0.         0.01652893 0.         0.
+ 0.00332779 0.         0.01324503]
+2025-11-17 20:04:10,040 - INFO - pod     precision | micro: 0.006111; macro: 0.004074; score: [0.         0.         0.00833333 0.00875    0.00958333 0.00166667
+ 0.         0.00041667 0.00791667]
+2025-11-17 20:04:10,040 - INFO - pod     recall    | micro: 0.758621; macro: 0.666667; score: [0. 0. 1. 1. 1. 1. 0. 1. 1.]
+2025-11-17 20:04:10,040 - INFO - pod     f1        | micro: 0.012125; macro: 0.008081; score: [0.         0.         0.01652893 0.0173482  0.01898473 0.00332779
+ 0.         0.00083299 0.01570897]
+2025-11-17 20:04:10,040 - INFO - ----------
+2025-11-17 20:04:12,017 - INFO - [11/300] | train_loss: 4.06207
+2025-11-17 20:04:13,759 - INFO - [12/300] | train_loss: 4.06209
+2025-11-17 20:04:15,622 - INFO - [13/300] | train_loss: 4.06199
+2025-11-17 20:04:17,417 - INFO - [14/300] | train_loss: 4.06163
+2025-11-17 20:04:19,218 - INFO - [15/300] | train_loss: 4.06209
+2025-11-17 20:04:21,018 - INFO - [16/300] | train_loss: 4.06172
+2025-11-17 20:04:22,820 - INFO - [17/300] | train_loss: 4.06154
+2025-11-17 20:04:24,617 - INFO - [18/300] | train_loss: 4.06174
+2025-11-17 20:04:26,659 - INFO - [19/300] | train_loss: 4.06171
+2025-11-17 20:04:28,517 - INFO - [20/300] | train_loss: 4.06181
+2025-11-17 20:04:28,813 - INFO - ----------
+2025-11-17 20:04:28,813 - INFO - evaluation dataset type: valid
+2025-11-17 20:04:28,829 - INFO - node    precision | micro: 0.005556; macro: 0.000926; score: [0.         0.         0.         0.         0.00555556 0.        ]
+2025-11-17 20:04:28,829 - INFO - node    recall    | micro: 0.125000; macro: 0.166667; score: [0. 0. 0. 0. 1. 0.]
+2025-11-17 20:04:28,829 - INFO - node    f1        | micro: 0.010638; macro: 0.001842; score: [0.         0.         0.         0.         0.01104972 0.        ]
+2025-11-17 20:04:28,920 - INFO - service precision | micro: 0.004167; macro: 0.001852; score: [0.         0.         0.         0.00833333 0.         0.
+ 0.00166667 0.         0.00666667]
+2025-11-17 20:04:28,920 - INFO - service recall    | micro: 0.416667; macro: 0.333333; score: [0. 0. 0. 1. 0. 0. 1. 0. 1.]
+2025-11-17 20:04:28,920 - INFO - service f1        | micro: 0.008251; macro: 0.003678; score: [0.         0.         0.         0.01652893 0.         0.
+ 0.00332779 0.         0.01324503]
+2025-11-17 20:04:29,012 - INFO - pod     precision | micro: 0.006111; macro: 0.004074; score: [0.         0.         0.00833333 0.00875    0.00958333 0.00166667
+ 0.         0.00041667 0.00791667]
+2025-11-17 20:04:29,012 - INFO - pod     recall    | micro: 0.758621; macro: 0.666667; score: [0. 0. 1. 1. 1. 1. 0. 1. 1.]
+2025-11-17 20:04:29,012 - INFO - pod     f1        | micro: 0.012125; macro: 0.008081; score: [0.         0.         0.01652893 0.0173482  0.01898473 0.00332779
+ 0.         0.00083299 0.01570897]
+2025-11-17 20:04:29,012 - INFO - ----------
+2025-11-17 20:04:30,816 - INFO - [21/300] | train_loss: 4.06171
+2025-11-17 20:04:32,718 - INFO - [22/300] | train_loss: 4.06190
+2025-11-17 20:04:34,513 - INFO - [23/300] | train_loss: 4.06129
+2025-11-17 20:04:36,315 - INFO - [24/300] | train_loss: 4.06141
+2025-11-17 20:04:38,115 - INFO - [25/300] | train_loss: 4.06147
+2025-11-17 20:04:39,912 - INFO - [26/300] | train_loss: 4.06144
+2025-11-17 20:04:41,716 - INFO - [27/300] | train_loss: 4.06167
+2025-11-17 20:04:43,459 - INFO - [28/300] | train_loss: 4.06159
+2025-11-17 20:04:45,322 - INFO - [29/300] | train_loss: 4.06146
+2025-11-17 20:04:47,216 - INFO - [30/300] | train_loss: 4.06122
+2025-11-17 20:04:47,448 - INFO - ----------
+2025-11-17 20:04:47,448 - INFO - evaluation dataset type: valid
+2025-11-17 20:04:47,520 - INFO - node    precision | micro: 0.005556; macro: 0.000926; score: [0.         0.         0.         0.         0.00555556 0.        ]
+2025-11-17 20:04:47,520 - INFO - node    recall    | micro: 0.125000; macro: 0.166667; score: [0. 0. 0. 0. 1. 0.]
+2025-11-17 20:04:47,520 - INFO - node    f1        | micro: 0.010638; macro: 0.001842; score: [0.         0.         0.         0.         0.01104972 0.        ]
+2025-11-17 20:04:47,538 - INFO - service precision | micro: 0.004167; macro: 0.001852; score: [0.         0.         0.         0.00833333 0.         0.
+ 0.00166667 0.         0.00666667]
+2025-11-17 20:04:47,538 - INFO - service recall    | micro: 0.416667; macro: 0.333333; score: [0. 0. 0. 1. 0. 0. 1. 0. 1.]
+2025-11-17 20:04:47,538 - INFO - service f1        | micro: 0.008251; macro: 0.003678; score: [0.         0.         0.         0.01652893 0.         0.
+ 0.00332779 0.         0.01324503]
+2025-11-17 20:04:47,636 - INFO - pod     precision | micro: 0.006111; macro: 0.004074; score: [0.         0.         0.00833333 0.00875    0.00958333 0.00166667
+ 0.         0.00041667 0.00791667]
+2025-11-17 20:04:47,636 - INFO - pod     recall    | micro: 0.758621; macro: 0.666667; score: [0. 0. 1. 1. 1. 1. 0. 1. 1.]
+2025-11-17 20:04:47,637 - INFO - pod     f1        | micro: 0.012125; macro: 0.008081; score: [0.         0.         0.01652893 0.0173482  0.01898473 0.00332779
+ 0.         0.00083299 0.01570897]
+2025-11-17 20:04:47,637 - INFO - ----------
+2025-11-17 20:04:49,416 - INFO - [31/300] | train_loss: 4.06112
+2025-11-17 20:04:51,217 - INFO - [32/300] | train_loss: 4.06147
+2025-11-17 20:04:53,020 - INFO - [33/300] | train_loss: 4.06086
+2025-11-17 20:04:54,817 - INFO - [34/300] | train_loss: 4.06107
+2025-11-17 20:04:56,820 - INFO - [35/300] | train_loss: 4.06102
+2025-11-17 20:04:58,722 - INFO - [36/300] | train_loss: 4.06071
+2025-11-17 20:05:00,617 - INFO - [37/300] | train_loss: 4.06112
+experiments_a.sh: line 12: 3370771 Killed                  python ./IncluRCA/trainer/a_rca_trainer.py --window_size 11 --data_base_path /root/shared-nvme/work/code/RCA/IncluRCA --dataset_path /root/shared-nvme/work/code/RCA/IncluRCA/temp_data/2022_CCF_AIOps_challenge/dataset/merge_multimodal/rca_multimodal_window_size_11.pkl --model_path /root/shared-nvme/work/code/RCA/IncluRCA/model/a/checkpoint/main.pt --epochs 300 --orl_te_heads 4 --orl_te_layers 2 --orl_te_in_channels 512 --efi_in_dim 512 --efi_te_heads 8 --efi_te_layers 2 --efi_out_dim 512 --eff_in_dim 512 --eff_GAT_out_channels 128 --eff_GAT_heads 4 --batch_size 64 --eff_GAT_dropout 0.1 --GAT_name1 GATv2Conv --GAT_name2 GATConv --activ_fun1 relu6 --activ_fun2 relu6 --explainer_mask_acti_func relu --GAT_name3 GATv2Conv --GAT_name4 GATConv --GAT_name5 GATConv --activ_fun3 relu6 --activ_fun4 relu6 --activ_fun5 relu6 --squeeze_type avg --excite_type fc

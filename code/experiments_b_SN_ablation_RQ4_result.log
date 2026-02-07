@@ -1,0 +1,39 @@
+reduction=16
+2026-01-15 09:16:15,714 - INFO - ----------
+2026-01-15 09:16:15,714 - INFO - evaluation dataset type: test
+2026-01-15 09:16:15,729 - INFO - service precision | micro: 0.627451; macro: 0.661859; score: [0.92307692 0.5        0.5625    ]
+2026-01-15 09:16:15,729 - INFO - service recall    | micro: 0.888889; macro: 0.888889; score: [1.         0.91666667 0.75      ]
+2026-01-15 09:16:15,729 - INFO - service f1        | micro: 0.735632; macro: 0.749972; score: [0.96       0.64705882 0.64285714]
+2026-01-15 09:16:15,729 - INFO - ----------
+
+reduction=32
+2026-01-15 09:18:56,755 - INFO - ----------
+2026-01-15 09:18:56,755 - INFO - evaluation dataset type: test
+2026-01-15 09:18:56,770 - INFO - service precision | micro: 0.500000; macro: 0.503704; score: [0.66666667 0.4        0.44444444]
+2026-01-15 09:18:56,770 - INFO - service recall    | micro: 0.777778; macro: 0.777778; score: [1.         0.66666667 0.66666667]
+2026-01-15 09:18:56,770 - INFO - service f1        | micro: 0.608696; macro: 0.611111; score: [0.8        0.5        0.53333333]
+2026-01-15 09:18:56,770 - INFO - ----------
+
+reduction=64
+2026-01-15 09:20:15,792 - INFO - ----------
+2026-01-15 09:20:15,792 - INFO - evaluation dataset type: test
+2026-01-15 09:20:15,807 - INFO - service precision | micro: 0.545455; macro: 0.577580; score: [0.85714286 0.45454545 0.42105263]
+2026-01-15 09:20:15,807 - INFO - service recall    | micro: 0.833333; macro: 0.833333; score: [1.         0.83333333 0.66666667]
+2026-01-15 09:20:15,807 - INFO - service f1        | micro: 0.659341; macro: 0.675814; score: [0.92307692 0.58823529 0.51612903]
+2026-01-15 09:20:15,807 - INFO - ----------
+
+reduction=8
+2026-01-15 09:21:45,075 - INFO - ----------
+2026-01-15 09:21:45,075 - INFO - evaluation dataset type: test
+2026-01-15 09:21:45,089 - INFO - service precision | micro: 0.466667; macro: 0.476190; score: [0.66666667 0.47619048 0.28571429]
+2026-01-15 09:21:45,089 - INFO - service recall    | micro: 0.777778; macro: 0.777778; score: [1.         0.83333333 0.5       ]
+2026-01-15 09:21:45,090 - INFO - service f1        | micro: 0.583333; macro: 0.589899; score: [0.8        0.60606061 0.36363636]
+2026-01-15 09:21:45,090 - INFO - ----------
+
+reduction=4
+2026-01-15 09:22:45,723 - INFO - ----------
+2026-01-15 09:22:45,723 - INFO - evaluation dataset type: test
+2026-01-15 09:22:45,738 - INFO - service precision | micro: 0.551724; macro: 0.562500; score: [0.66666667 0.45833333 0.5625    ]
+2026-01-15 09:22:45,738 - INFO - service recall    | micro: 0.888889; macro: 0.888889; score: [1.         0.91666667 0.75      ]
+2026-01-15 09:22:45,738 - INFO - service f1        | micro: 0.680851; macro: 0.684656; score: [0.8        0.61111111 0.64285714]
+2026-01-15 09:22:45,739 - INFO - ----------
