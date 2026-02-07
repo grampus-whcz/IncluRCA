@@ -1,5 +1,6 @@
 import pandas as pd
 import glob
+import os
 
 from data_filter.CCF_AIOps_challenge_2022.base.base_class import BaseClass
 
@@ -15,6 +16,45 @@ class GroundTruthDao(BaseClass):
         print(data_base_path)
 
         file_list = glob.glob(f'{data_base_path}/*.csv')
+        
+        desired_order_test = ["05-01", "05-07", "05-09", "05-03", "05-05"]
+
+        # --- 定义排序键函数 ---
+        def sort_key1(file_path):
+            filename = os.path.basename(file_path)
+            # 提取日期部分，例如 '2022-05-01' -> '05-01'
+            date_part = filename.replace('groundtruth-', '').replace('.csv', '').split('2022-')[-1]
+            try:
+                # 返回 desired_order 中 date_part 的索引
+                # 索引越小，排序越靠前
+                return desired_order_test.index(date_part)
+            except ValueError:
+                # 如果文件名中的日期不在 desired_order 中，可以选择将其放在最后
+                # 或者抛出错误，取决于你的需求
+                return len(desired_order_test) # 将其放在最后
+            
+        desired_order_train_valid = ["3-2022-03-24", "2-2022-03-21", "1-2022-03-21", "3-2022-03-21", "3-2022-03-20", "1-2022-03-20", "2-2022-03-20"]
+
+        # --- 定义排序键函数 ---
+        def sort_key2(file_path):
+            filename = os.path.basename(file_path)
+            # 提取日期部分，例如 '2022-05-01' -> '05-01'
+            date_part = filename.replace('groundtruth-', '').replace('.csv', '').split('k8s-')[-1]
+            try:
+                # 返回 desired_order 中 date_part 的索引
+                # 索引越小，排序越靠前
+                return desired_order_train_valid.index(date_part)
+            except ValueError:
+                # 如果文件名中的日期不在 desired_order 中，可以选择将其放在最后
+                # 或者抛出错误，取决于你的需求
+                return len(desired_order_train_valid) # 将其放在最后
+
+        # --- 使用自定义键进行排序 ---
+        if dataset_type == 'train_valid':
+            file_list = sorted(file_list, key=sort_key2)
+        else:
+            file_list = sorted(file_list, key=sort_key1)
+        
         for file in file_list:
             if dataset_type == 'train_valid':
                 date = '2022-' + file.split('/')[-1].replace('.csv', '').split('2022-')[-1]

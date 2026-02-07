@@ -397,7 +397,7 @@ class LogGenerator(BaseGenerator):
             for service in self.config.data_dict['setting']['metric']['service_order']:
                 entity_features.append((service, (0, 0)))
 
-            for data_type in ['train_valid', 'test']:
+            for data_type in ['train_valid', 'test', 'normal_for_train_valid', 'normal_for_test']:
                 print(data_type)
                 time_interval_label_list = TimeIntervalLabelGenerator().get_time_interval_label(window_size)['time_interval'][data_type]
                 log_dict[data_type] = []

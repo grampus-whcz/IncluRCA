@@ -17,7 +17,7 @@ class DataConfig:
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'service_knowledge.json')) as f:
             service_knowledge_dict = json.load(f)
 
-        data_base_path = '/root/shared-nvme/data_set/2022_CCF_AIOps_challenge/'
+        data_base_path = '/root/shared-nvme/data_set/2022_CCF_AIOps_challenge_bak/'
         self.data_dict = {
             'file': {
                 'normal': {

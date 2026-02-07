@@ -1,0 +1,268 @@
+[
+    {
+        "config": {
+            "GAT_name1": "GATConv",
+            "GAT_name2": "GATConv",
+            "activ_fun1": "rrelu",
+            "activ_fun2": "relu6"
+        },
+        "metrics": {
+            "node_precision_micro": 0.701149,
+            "node_recall_micro": 0.910448,
+            "node_f1_micro": 0.792208,
+            "service_precision_micro": 0.747253,
+            "service_recall_micro": 0.772727,
+            "service_f1_micro": 0.759777,
+            "pod_precision_micro": 0.68906,
+            "pod_recall_micro": 0.819635,
+            "pod_f1_micro": 0.748697
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATConv",
+            "GAT_name2": "GATConv",
+            "activ_fun1": "celu",
+            "activ_fun2": "leaky_relu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.663158,
+            "node_recall_micro": 0.940299,
+            "node_f1_micro": 0.777778,
+            "service_precision_micro": 0.825,
+            "service_recall_micro": 0.75,
+            "service_f1_micro": 0.785714,
+            "pod_precision_micro": 0.71063,
+            "pod_recall_micro": 0.824201,
+            "pod_f1_micro": 0.763214
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATConv",
+            "GAT_name2": "GATConv",
+            "activ_fun1": "elu",
+            "activ_fun2": "leaky_relu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.663158,
+            "node_recall_micro": 0.940299,
+            "node_f1_micro": 0.777778,
+            "service_precision_micro": 0.825,
+            "service_recall_micro": 0.75,
+            "service_f1_micro": 0.785714,
+            "pod_precision_micro": 0.71063,
+            "pod_recall_micro": 0.824201,
+            "pod_f1_micro": 0.763214
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATConv",
+            "GAT_name2": "GATv2Conv",
+            "activ_fun1": "leaky_relu",
+            "activ_fun2": "celu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.673913,
+            "node_recall_micro": 0.925373,
+            "node_f1_micro": 0.779874,
+            "service_precision_micro": 0.780488,
+            "service_recall_micro": 0.727273,
+            "service_f1_micro": 0.752941,
+            "pod_precision_micro": 0.684512,
+            "pod_recall_micro": 0.817352,
+            "pod_f1_micro": 0.745057
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATConv",
+            "GAT_name2": "GATv2Conv",
+            "activ_fun1": "leaky_relu",
+            "activ_fun2": "selu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.681319,
+            "node_recall_micro": 0.925373,
+            "node_f1_micro": 0.78481,
+            "service_precision_micro": 0.777778,
+            "service_recall_micro": 0.795455,
+            "service_f1_micro": 0.786517,
+            "pod_precision_micro": 0.660746,
+            "pod_recall_micro": 0.849315,
+            "pod_f1_micro": 0.743257
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATConv",
+            "GAT_name2": "GATv2Conv",
+            "activ_fun1": "leaky_relu",
+            "activ_fun2": "elu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.673913,
+            "node_recall_micro": 0.925373,
+            "node_f1_micro": 0.779874,
+            "service_precision_micro": 0.780488,
+            "service_recall_micro": 0.727273,
+            "service_f1_micro": 0.752941,
+            "pod_precision_micro": 0.684512,
+            "pod_recall_micro": 0.817352,
+            "pod_f1_micro": 0.745057
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATConv",
+            "GAT_name2": "GATv2Conv",
+            "activ_fun1": "relu6",
+            "activ_fun2": "relu6"
+        },
+        "metrics": {
+            "node_precision_micro": 0.677419,
+            "node_recall_micro": 0.940299,
+            "node_f1_micro": 0.7875,
+            "service_precision_micro": 0.774194,
+            "service_recall_micro": 0.818182,
+            "service_f1_micro": 0.79558,
+            "pod_precision_micro": 0.677536,
+            "pod_recall_micro": 0.853881,
+            "pod_f1_micro": 0.755556
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATv2Conv",
+            "GAT_name2": "GATConv",
+            "activ_fun1": "silu",
+            "activ_fun2": "selu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.67033,
+            "node_recall_micro": 0.910448,
+            "node_f1_micro": 0.772152,
+            "service_precision_micro": 0.8,
+            "service_recall_micro": 0.727273,
+            "service_f1_micro": 0.761905,
+            "pod_precision_micro": 0.719536,
+            "pod_recall_micro": 0.849315,
+            "pod_f1_micro": 0.779058
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATv2Conv",
+            "GAT_name2": "GATConv",
+            "activ_fun1": "silu",
+            "activ_fun2": "relu6"
+        },
+        "metrics": {
+            "node_precision_micro": 0.67033,
+            "node_recall_micro": 0.910448,
+            "node_f1_micro": 0.772152,
+            "service_precision_micro": 0.7875,
+            "service_recall_micro": 0.715909,
+            "service_f1_micro": 0.75,
+            "pod_precision_micro": 0.67148,
+            "pod_recall_micro": 0.849315,
+            "pod_f1_micro": 0.75
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATv2Conv",
+            "GAT_name2": "GATConv",
+            "activ_fun1": "relu6",
+            "activ_fun2": "silu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.685393,
+            "node_recall_micro": 0.910448,
+            "node_f1_micro": 0.782051,
+            "service_precision_micro": 0.771084,
+            "service_recall_micro": 0.727273,
+            "service_f1_micro": 0.748538,
+            "pod_precision_micro": 0.72,
+            "pod_recall_micro": 0.821918,
+            "pod_f1_micro": 0.767591
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATv2Conv",
+            "GAT_name2": "GATConv",
+            "activ_fun1": "relu6",
+            "activ_fun2": "rrelu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.696629,
+            "node_recall_micro": 0.925373,
+            "node_f1_micro": 0.794872,
+            "service_precision_micro": 0.784091,
+            "service_recall_micro": 0.784091,
+            "service_f1_micro": 0.784091,
+            "pod_precision_micro": 0.707364,
+            "pod_recall_micro": 0.833333,
+            "pod_f1_micro": 0.765199
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATv2Conv",
+            "GAT_name2": "GATv2Conv",
+            "activ_fun1": "leaky_relu",
+            "activ_fun2": "silu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.673913,
+            "node_recall_micro": 0.925373,
+            "node_f1_micro": 0.779874,
+            "service_precision_micro": 0.814815,
+            "service_recall_micro": 0.75,
+            "service_f1_micro": 0.781065,
+            "pod_precision_micro": 0.723197,
+            "pod_recall_micro": 0.847032,
+            "pod_f1_micro": 0.780231
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATv2Conv",
+            "GAT_name2": "GATv2Conv",
+            "activ_fun1": "leaky_relu",
+            "activ_fun2": "leaky_relu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.688889,
+            "node_recall_micro": 0.925373,
+            "node_f1_micro": 0.789809,
+            "service_precision_micro": 0.831169,
+            "service_recall_micro": 0.727273,
+            "service_f1_micro": 0.775758,
+            "pod_precision_micro": 0.731373,
+            "pod_recall_micro": 0.851598,
+            "pod_f1_micro": 0.78692
+        }
+    },
+    {
+        "config": {
+            "GAT_name1": "GATv2Conv",
+            "GAT_name2": "GATv2Conv",
+            "activ_fun1": "relu6",
+            "activ_fun2": "rrelu"
+        },
+        "metrics": {
+            "node_precision_micro": 0.67033,
+            "node_recall_micro": 0.910448,
+            "node_f1_micro": 0.772152,
+            "service_precision_micro": 0.802326,
+            "service_recall_micro": 0.784091,
+            "service_f1_micro": 0.793103,
+            "pod_precision_micro": 0.696798,
+            "pod_recall_micro": 0.844749,
+            "pod_f1_micro": 0.763674
+        }
+    }
+]

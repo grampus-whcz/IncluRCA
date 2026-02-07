@@ -18,7 +18,7 @@ class EntEdgeIndexGenerator(BaseGenerator):
             result_dict[window_size] = dict()
             window_value = TimeIntervalLabelGenerator().get_time_interval_label(window_size)
             result_dict[window_size] = dict()
-            for data_type in ['train_valid', 'test']:
+            for data_type in ['train_valid', 'test', 'normal_for_train_valid', 'normal_for_test']:
                 result_dict[window_size][data_type] = []
                 for time_interval in window_value['time_interval'][data_type]:
                     result_dict[window_size][data_type].append(copy.deepcopy(topology_dict[f'{time_interval[0]}/{time_interval[1]}']))
@@ -32,7 +32,9 @@ class EntEdgeIndexGenerator(BaseGenerator):
         for window_size in self.window_size_list:
             relation_dict = {
                 'train_valid': topology[window_size]['train_valid'],
-                'test': topology[window_size]['test']
+                'test': topology[window_size]['test'],
+                'normal_for_train_valid': topology[window_size]['normal_for_train_valid'],
+                'normal_for_test': topology[window_size]['normal_for_test']
             }
             folder = FileHandler.set_folder(f'{self.config.param_dict["temp_data_storage"]}/dataset/ent_edge_index')
             with open(f'{folder}/ent_edge_index_window_size_{window_size}.pkl', 'wb') as f:

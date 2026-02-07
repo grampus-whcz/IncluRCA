@@ -232,7 +232,7 @@ class ApiGenerator(BaseGenerator):
             #         api_dict[data_type].append(np.array(data).transpose())
             #         record_features = False
                 
-            for data_type in ['train_valid', 'test']:
+            for data_type in ['train_valid', 'test', 'normal_for_train_valid', 'normal_for_test']:
                 print(data_type)
                 time_interval_label_list = TimeIntervalLabelGenerator().get_time_interval_label(window_size)['time_interval'][data_type]
                 api_dict[data_type] = []

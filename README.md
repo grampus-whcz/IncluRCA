@@ -102,6 +102,14 @@ python ./data_filter/CCF_AIOps_challenge_2022/service/api_generator.py
 python ./data_filter/CCF_AIOps_challenge_2022/service/dataset_generator.py
 ````
 
+Note: time_interval_label_generator.py must be run before all the other scripts in service, because it will generate the time_interval_label.pkl file that is used by other modal data.
+the groudtruth's faults' order is a key factor that affects the performance of the training. While this order is determined by ground_truth_dao.py's get_ground_truth() function.
+HolisticRCA use the following order:
+- test 1, 7, 9, 3, 5
+- train 24, 21(2, 1, 3), 20(3, 1, 2)
+
+If time_interval_and_label is newly generated and other modal data is not newly generated, then the order of faults in test and train set will be different and the training performance and outcome will be pretty bad.
+
 ### Prerequisites
 
 1. Prepare the Python packages in ``requirements.txt``.

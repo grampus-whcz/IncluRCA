@@ -117,8 +117,8 @@ class DatasetGenerator(BaseGenerator):
     def generate_rca_multimodal_dataset(self):
         modal_type_list = ['metric', 'trace', 'log', 'api']
         folder = FileHandler.set_folder(f'{self.config.param_dict["temp_data_storage"]}/dataset/merge_multimodal')
-        # for window_size in self.window_size_list:
-        for window_size in [17]:
+        for window_size in self.window_size_list:
+        # for window_size in [17]:
             print("window_size: ", window_size)
             modal_dict, ent_edge_index, y = self.get_base_data(modal_type_list, window_size)
             

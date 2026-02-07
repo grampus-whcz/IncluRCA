@@ -102,5 +102,6 @@ if __name__ == '__main__':
 
     rca_data_trainer = ARCATrainer(params)
     rca_data_trainer.train()
-    rca_data_trainer.evaluate_rca_d3()
+    rca_data_trainer.evaluate_rca_d3()    
+    rca_data_trainer.diagnose_prediction_errors()
     ...
